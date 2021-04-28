@@ -31,11 +31,11 @@ Quick Links
 - Unit 3: [5] Compound Boolean Expressions
 - Unit 3: [6] Equivalent Boolean Expressions
 - OMIT (for now), Unit 3: Comparing Objects
-- Unit 3: Personal Progress Check
+- [x] Unit 3: Personal Progress Check
 - Unit 4 (note: review of similar algorithms from visual data): [3] Developing Algorithms Using Strings
 - Unit 4: [4] Nested Iteration
 - OMIT (for now), Unit 4: Informal Code Analysis
-- Unit 4: Personal Progress Check
+- [x] Unit 4: Personal Progress Check
 
 ## Class Introduction (CS30)
 - Unit 2: [1] Objects - Instances of Classes
@@ -47,11 +47,11 @@ Quick Links
 - Unit 2: [7] String Methods
 - Unit 2: [8] Wrapper Classes - Integer and Double
 - Unit 2: [9] Using the Math Class
-- Unit 2: Personal Progress Check
+- [x] Unit 2: Personal Progress Check
 - Unit 3: [7] Comparing Objects
-- [OPTIONAL] Unit 3: Personal Progress Check
+- [x]  [OPTIONAL] Unit 3: Personal Progress Check
 - Unit 4: [5] Informal Code Analysis
-- [OPTIONAL] Unit 4: Personal Progress Check
+- [x] [OPTIONAL] Unit 4: Personal Progress Check
 
 ## Class Building (CS30)
 - Unit 5: [1] Anatomy of a Class
@@ -64,25 +64,25 @@ Quick Links
 - Unit 5: [8] Scope and Access
 - Unit 5: [9] THIS Keyword
 - Unit 5: [10] Ethical and Social Implications of Computing Systems
-- Unit 5: Personal Progress Check
+- [x] Unit 5: Personal Progress Check
 
 **CONTINUE HERE**
 
 
 ## Data Structure - Arrays (CS20-30)
-- Unit 6
+- [x] Unit 6
 
 ## Data Structure, Searching, and Sorting - ArrayLists (CS30)
-- Unit 7
+- [x] Unit 7
 
 ## Data Structure, 2D Arrays (CS30)
-- Unit 8
+- [x] Unit 8
 
 ## Class Organization and Structure (CS30)
-- Unit 9
+- [x] Unit 9
 
 ## Recursion, Searching, and Sorting (CS30)
-- Unit 10
+- [x] Unit 10
 
 ## Review
 
