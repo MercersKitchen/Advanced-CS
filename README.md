@@ -14,12 +14,12 @@ Quick Links
 ## Outline of all Topics
 
 ### Review of CS10 Topics
-- [x] Unit 1: [1] Why Programming? Why Java?
+- Unit 1: [1] Why Programming? Why Java?
 - Unit 1: [2] Variables and Data Types
 - Unit 1: [3] Expressions and Assignment Statements
 - Unit 1: [4] Compound Assignment Operators
 - Unit 1: [5] Casting and Ranges of Variables
-- Complete the Personal Progress Check of Unit 1
+- [x] Unit 1: Personal Progress Check
 - Unit 3: [1] Boolean Expressions
 - Unit 3: [2] IF Statements and Control Flow
 - Unit 3: [3] IF-ELSE Statements
