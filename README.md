@@ -37,16 +37,56 @@ Quick Links
 - OMIT (for now), Unit 4: Informal Code Analysis
 - Unit 4: Personal Progress Check
 
+## Class Introduction (CS30)
+- Unit 2: [1] Objects - Instances of Classes
+- Unit 2: [2] Creating and Storing Objects (Instantiation)
+- Unit 2: [3] Calling a Void Method
+- Unit 2: [4] Calling a Void Method with Parameters
+- Unit 2: [5] Calling a Non-void Method
+- Unit 2: [6] String Objects - Concatenation, literals, and More
+- Unit 2: [7] String Methods
+- Unit 2: [8] Wrapper Classes - Integer and Double
+- Unit 2: [9] Using the Math Class
+- Unit 2: Personal Progress Check
+- Unit 3: [7] Comparing Objects
+- [OPTIONAL] Unit 3: Personal Progress Check
+- Unit 4: [5] Informal Code Analysis
+- [OPTIONAL] Unit 4: Personal Progress Check
+
+## Class Building (CS30)
+- Unit 5: [1] Anatomy of a Class
+- Unit 5: [2] Constructors
+- Unit 5: [3] Documentation with Comments
+- Unit 5: [4 Accessor Methods
+- Unit 5: [5] Mutator Methods
+- Unit 5: [6] Writing Methods
+- Unit 5: [7] Static Variables and Methods
+- Unit 5: [8] Scope and Access
+- Unit 5: [9] THIS Keyword
+- Unit 5: [10] Ethical and Social Implications of Computing Systems
+- Unit 5: Personal Progress Check
+
 **CONTINUE HERE**
 
-## Class Introduction (CS30)
-- Unit 2: Objects - Instances of Classes
-- Unit 2:
-- Unit 2:
 
-To Include
-- Unit 3: [7] Comparing Objects
-- Unit 4: [5] Informal Code Analysis
+## Data Structure - Arrays (CS20-30)
+- Unit 6
+
+## Data Structure, Searching, and Sorting - ArrayLists (CS30)
+- Unit 7
+
+## Data Structure, 2D Arrays (CS30)
+- Unit 8
+
+## Class Organization and Structure (CS30)
+- Unit 9
+
+## Recursion, Searching, and Sorting (CS30)
+- Unit 10
+
+## Review
+
+
 
 Consider
 - Video Length
