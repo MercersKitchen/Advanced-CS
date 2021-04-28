@@ -47,6 +47,12 @@ Quick Links
 To Include
 - Unit 3: [7] Comparing Objects
 - Unit 4: [5] Informal Code Analysis
+
+Consider
+- Video Length
+- Vocabulary words and content
+- Coding Exemplars & Snippets
+
 ---
 
 # To Include
