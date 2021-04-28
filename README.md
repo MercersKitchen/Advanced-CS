@@ -14,7 +14,7 @@ Quick Links
 ## Outline of all Topics
 
 ### Review of CS10 Topics
-- Unit 1: [1] Why Programming? Why Java?
+- [] Unit 1: [1] Why Programming? Why Java?
 - Unit 1: [2] Variables and Data Types
 - Unit 1: [3] Expressions and Assignment Statements
 - Unit 1: [4] Compound Assignment Operators
