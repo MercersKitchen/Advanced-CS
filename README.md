@@ -48,6 +48,7 @@ Quick Links
 - Unit 2: [7] String Methods
 - Unit 2: [8] Wrapper Classes - Integer and Double
 - Unit 2: [9] Using the Math Class
+- [x] Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
 - [x] Unit 2: Personal Progress Check
 - Unit 3: [7] Comparing Objects
 - [x]  [OPTIONAL] Unit 3: Personal Progress Check
@@ -101,7 +102,18 @@ Consider
 Question: AND, OR, NOT, influencing control flow, related to IF-ELSE
 Question: IF-ELSEIF-ELSE
 
+Note: re-watch videos for all vocabulary words
+
 Summary, See Course / Faculty Lectures by Unit: [1] Primitive Data Types in Java
-- 2.41: simple Java Program (three different ways of declaring, assigning), remember global vs local and separated between geometry, strongly formatted language (different from other languages, amount of memory changes in strongly formatted), introduce static vs. dynamic programming in Processing-JAVA, must have decimal, create simple processing-JAVA, create simple driver-processing-Java, create simple driver-Processing-PureJava, memeorize the amount of memory (time, 11:00), conserving memory as best practice
+- 2.41: simple Java Program (three different ways of declaring, assigning), remember global vs local and separated between geometry, strongly formatted language (different from other languages, amount of memory changes in strongly formatted), introduce static vs. dynamic programming in Processing-JAVA, must have decimal, create simple processing-JAVA, create simple driver-processing-Java, create simple driver-Processing-PureJava, memorize the amount of memory (time, 11:00), conserving memory as best practice, OOP creates data types that they need
+
+Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
+- Machine language
+- "Write programs to help them write machine language"
+- Solve problems like a human being - what does this mean, method of thought (words, images, logic, emotions)
+- Why is OOP a good way to solve problems: create objects, use Objects
+- How do we define objects to solve problems
+- A language is a way of thinking about a problem
+
 
 ---
