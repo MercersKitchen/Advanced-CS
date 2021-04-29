@@ -19,6 +19,7 @@ Quick Links
 - Unit 1: [3] Expressions and Assignment Statements
 - Unit 1: [4] Compound Assignment Operators
 - Unit 1: [5] Casting and Ranges of Variables
+- [x] Summary, See Course / Faculty Lectures by Unit: [1] Primitive Data Types in Java
 - [x] Unit 1: Personal Progress Check
 - Unit 3: [1] Boolean Expressions
 - Unit 3: [2] IF Statements and Control Flow
@@ -99,5 +100,8 @@ Consider
 
 Question: AND, OR, NOT, influencing control flow, related to IF-ELSE
 Question: IF-ELSEIF-ELSE
+
+Summary, See Course / Faculty Lectures by Unit: [1] Primitive Data Types in Java
+- 2.41: simple Java Program (three different ways of declaring, assigning), remember global vs local and separated between geometry, strongly formatted language (different from other languages, amount of memory changes in strongly formatted), introduce static vs. dynamic programming in Processing-JAVA, must have decimal, create simple processing-JAVA, create simple driver-processing-Java, create simple driver-Processing-PureJava, memeorize the amount of memory (time, 11:00), conserving memory as best practice
 
 ---
