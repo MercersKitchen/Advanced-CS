@@ -71,31 +71,52 @@ Quick Links
 - Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
 - [x] Unit 5: Personal Progress Check
 
-**CONTINUE HERE**
-
-
 ## Data Structure - Arrays (CS20-30)
-- [x] Unit 6: [] 
+- Unit 6: [1] Array Creation and Access
+- Unit 6: [2] Traversing Arrays
+- Unit 6: [3] Enhanced for Loop for Arrays
+- Unit 6: [4] Developing Algorithms Using Arrays
 - Summary, see Course / Faculty Lectures by Unit: [6] Arrays: Engaging, Explaining, Exploring
+- [x] Unit 6: Personal Progress Check
 
 ## Data Structure, Searching, and Sorting - ArrayLists (CS30)
-- [x] Unit 7
+- Unit 7: [1] Introduction to ArrayList
+- Unit 7: [2] ArrayList Method
+- Unit 7: [3] Traversing ArrayLists
+- Unit 7: [4] Developing Algorithms Using ArrayLists
+- Unit 7: [5] Searching
+- Unit 7: [6] Sorting
+- Unit 7: [7] Ethical Issues Around Data Collection
 - Summary, see Course / Faculty Lectures by Unit: [7] Arrays vs. ArrayLists: the When, Why, and How
+- [x] Unit 7: Personal Progress Check
 
 ## Data Structure, 2D Arrays (CS30)
-- [x] Unit 8
+- Unit 8: [1] 2D Arrays
+- Unit 8: [2] Traversing 2D Arrays
 - Summary, see Course / Faculty Lectures by Unit: [8] 2D Arrays: Engaging, Explaining, Exploring
+- [x] Unit 8: Personal Progress Check
 
 ## Class Organization and Structure (CS30)
-- [x] Unit 9
+- Unit 9: [1] Creating Superclasses and Subclasses
+- Unit 9: [2] Writing Constructors for Subclasses
+- Unit 9: [3] Overriding Methods
+- Unit 9: [4] super Keyword
+- Unit 9: [5] Creating References using Inheritance Hierarchies
+- Unit 9: [6] Polymorphism
+- Unit 9: [7] Object Superclass
 - Summary, see Course / Faculty Lectures by Unit: [9] Inheritance in Java
+- [x] Unit 9: Personal Progress Check
 
 ## Recursion, Searching, and Sorting (CS30)
-- [x] Unit 10
+- Unit 10: [1] Recursion
+- Unit 10: [2] Recursive Searching and Sorting
+- [x] Unit 10: Personal Progress Check
 
 ## Review
-
-
+- Review Session 1: Methods and Control Structures in JAVA
+- Review Session 2: How to Implement Java Quick Reference]
+- Review Session 3: How to Use Algorithm with Arrays & ArrayList
+- Review Session 4: Exam Details and Strategies for 2021 & 2D Arrays
 
 Consider
 - Video Length
