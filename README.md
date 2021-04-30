@@ -68,7 +68,7 @@ Quick Links
 - [OPTIONAL] Unit 3: Personal Progress Check
 - Unit 4: [5] Informal Code Analysis
 - [OPTIONAL] Unit 4: Personal Progress Check
-- Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
+- [x] Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
 - [x] Unit 5: Personal Progress Check
 
 ## Data Structure - Arrays (CS20-30)
@@ -76,7 +76,7 @@ Quick Links
 - Unit 6: [2] Traversing Arrays
 - Unit 6: [3] Enhanced for Loop for Arrays
 - Unit 6: [4] Developing Algorithms Using Arrays
-- Summary, see Course / Faculty Lectures by Unit: [6] Arrays: Engaging, Explaining, Exploring
+- [x] Summary, see Course / Faculty Lectures by Unit: [6] Arrays: Engaging, Explaining, Exploring
 - [x] Unit 6: Personal Progress Check
 
 ## Data Structure, Searching, and Sorting - ArrayLists (CS30)
@@ -87,13 +87,13 @@ Quick Links
 - Unit 7: [5] Searching
 - Unit 7: [6] Sorting
 - Unit 7: [7] Ethical Issues Around Data Collection
-- Summary, see Course / Faculty Lectures by Unit: [7] Arrays vs. ArrayLists: the When, Why, and How
+- [x] Summary, see Course / Faculty Lectures by Unit: [7] Arrays vs. ArrayLists: the When, Why, and How
 - [x] Unit 7: Personal Progress Check
 
 ## Data Structure, 2D Arrays (CS30)
 - Unit 8: [1] 2D Arrays
 - Unit 8: [2] Traversing 2D Arrays
-- Summary, see Course / Faculty Lectures by Unit: [8] 2D Arrays: Engaging, Explaining, Exploring
+- [x] Summary, see Course / Faculty Lectures by Unit: [8] 2D Arrays: Engaging, Explaining, Exploring
 - [x] Unit 8: Personal Progress Check
 
 ## Class Organization and Structure (CS30)
@@ -104,7 +104,7 @@ Quick Links
 - Unit 9: [5] Creating References using Inheritance Hierarchies
 - Unit 9: [6] Polymorphism
 - Unit 9: [7] Object Superclass
-- Summary, see Course / Faculty Lectures by Unit: [9] Inheritance in Java
+- [x] Summary, see Course / Faculty Lectures by Unit: [9] Inheritance in Java
 - [x] Unit 9: Personal Progress Check
 
 ## Recursion, Searching, and Sorting (CS30)
@@ -113,10 +113,10 @@ Quick Links
 - [x] Unit 10: Personal Progress Check
 
 ## Review
-- Review Session 1: Methods and Control Structures in JAVA
-- Review Session 2: How to Implement Java Quick Reference]
-- Review Session 3: How to Use Algorithm with Arrays & ArrayList
-- Review Session 4: Exam Details and Strategies for 2021 & 2D Arrays
+- [x] Review Session 1: Methods and Control Structures in JAVA
+- [x] Review Session 2: How to Implement Java Quick Reference]
+- [x] Review Session 3: How to Use Algorithm with Arrays & ArrayList
+- [x] Review Session 4: Exam Details and Strategies for 2021 & 2D Arrays
 
 Consider
 - Video Length
