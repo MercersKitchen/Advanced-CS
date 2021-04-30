@@ -31,11 +31,13 @@ Quick Links
 ## Review of CS20 Topics
 - Unit 3: [5] Compound Boolean Expressions
 - Unit 3: [6] Equivalent Boolean Expressions
+- [x] Summary, See Course / Faculty Lectures by Unit: [3] Boolean Expressions and IF Statements
 - OMIT (for now), Unit 3: Comparing Objects
 - [x] Unit 3: Personal Progress Check
 - Unit 4 (note: review of similar algorithms from visual data): [3] Developing Algorithms Using Strings
 - Unit 4: [4] Nested Iteration
 - OMIT (for now), Unit 4: Informal Code Analysis
+- Summary, See Course / Faculty Lectures by Unit: [4] Four loops to while the time away
 - [x] Unit 4: Personal Progress Check
 
 ## Class Introduction (CS30)
@@ -50,10 +52,6 @@ Quick Links
 - Unit 2: [9] Using the Math Class
 - [x] Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
 - [x] Unit 2: Personal Progress Check
-- Unit 3: [7] Comparing Objects
-- [x]  [OPTIONAL] Unit 3: Personal Progress Check
-- Unit 4: [5] Informal Code Analysis
-- [x] [OPTIONAL] Unit 4: Personal Progress Check
 
 ## Class Building (CS30)
 - Unit 5: [1] Anatomy of a Class
@@ -66,22 +64,31 @@ Quick Links
 - Unit 5: [8] Scope and Access
 - Unit 5: [9] THIS Keyword
 - Unit 5: [10] Ethical and Social Implications of Computing Systems
+- Unit 3: [7] Comparing Objects
+- [OPTIONAL] Unit 3: Personal Progress Check
+- Unit 4: [5] Informal Code Analysis
+- [OPTIONAL] Unit 4: Personal Progress Check
+- Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
 - [x] Unit 5: Personal Progress Check
 
 **CONTINUE HERE**
 
 
 ## Data Structure - Arrays (CS20-30)
-- [x] Unit 6
+- [x] Unit 6: [] 
+- Summary, see Course / Faculty Lectures by Unit: [6] Arrays: Engaging, Explaining, Exploring
 
 ## Data Structure, Searching, and Sorting - ArrayLists (CS30)
 - [x] Unit 7
+- Summary, see Course / Faculty Lectures by Unit: [7] Arrays vs. ArrayLists: the When, Why, and How
 
 ## Data Structure, 2D Arrays (CS30)
 - [x] Unit 8
+- Summary, see Course / Faculty Lectures by Unit: [8] 2D Arrays: Engaging, Explaining, Exploring
 
 ## Class Organization and Structure (CS30)
 - [x] Unit 9
+- Summary, see Course / Faculty Lectures by Unit: [9] Inheritance in Java
 
 ## Recursion, Searching, and Sorting (CS30)
 - [x] Unit 10
@@ -114,6 +121,23 @@ Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Prog
 - Why is OOP a good way to solve problems: create objects, use Objects
 - How do we define objects to solve problems
 - A language is a way of thinking about a problem
+
+Summary, See Course / Faculty Lectures by Unit: [1] Primitive Data Types in Java
+- Tips for Booleans and IFs
+- Emphasis on AP Exam
+- These need to be practiced
+- Mismatched formatting and punctuation - CONTROL-TAB to use IDE, use cursor to match blocks of code
+- Single Statement IFs, unlocking a line of code
+- Examples with code tracing
+- Lesson from 0 - 18 minutes, graduates speaking from 18 minutes to the oriented
+
+Summary, See Course / Faculty Lectures by Unit: [4] Four loops to while the time away
+- Coding examples for coding a "Marquee"
+
+Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
+- grouping variables and how they are related
+- define data & behaviours
+- coding a social media example
 
 
 ---
