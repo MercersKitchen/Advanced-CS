@@ -15,7 +15,7 @@ Quick Links
 ## Outline of all Topics
 
 ### Review of CS10 Topics
-- Unit 1: [1] Why Programming? Why Java?
+- Unit 1: [1] Why Programming? Why Java?, <a href="">Click here when active</a>
 - Unit 1: [2] Variables and Data Types
 - Unit 1: [3] Expressions and Assignment Statements
 - Unit 1: [4] Compound Assignment Operators
@@ -123,6 +123,135 @@ Consider
 - Video Length
 - Vocabulary words and content
 - Coding Exemplars & Snippets
+
+---
+
+# Video Summaries
+- UNDER CONSTRUCTION
+
+## Review of CS10 Topics
+- Using Processing-JAVA
+- Using Pure Java & CMD Window with the Java Compiler
+- [OPTIONAL] Using JavaScript & Chrome
+
+### Unit 1: [1] Why Programming? Why Java?
+- Console Output
+- Computer Setup | IDEs
+- How Java Formatting and Compiler Interact (Folders and Main Program)
+- Formatting of Program for Program (Encapsulation)
+- Identification of Main Method
+- Begin learning about objects (abstract definition)
+- Using commenting to create human readable code
+- How `;` creates machine executable code and linear reading (almost human readable)
+- Difference between linear and dynamic programming
+- Using String Literals, character escapes, concatenation
+- Difference between single and double-quotes
+- String Literals introducing syntax and logic errors (by compiler)
+- Difference between pre-run errors (debugging line), run-time errors, exceptions, and logic errors (output still occurs)
+- Detection of each of these errors
+- Student Skill of APCSA Exam: read code, as a compiler, and identify and find all these errors
+
+**Using Processing-JAVA**
+- Introduction to Processing-JAVA IDE
+- `print` | `println`
+- Hello World Program: text to Console, visual data to Canvas
+
+//Hello World
+```
+/* Programmer: Mr. Mercer
+Date: 20210503
+Purpose: Demonstrate the System Class Method
+
+```
+
+
+**Using Pure Java**
+- System Class: `System.out.print` | `System.out.println`
+
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 1: [2] Variables and Data Types
+- Program design to solve a problem or task (i.e. linear vs. dynamic currently)
+- Computational Thinking: domain of values and operations need to produce needed output
+- Primitive or reference data types (numbers or Booleans): Booleans (1 bit) int (32-bits), double (64-bits), floating point,
+- Other Data types related to Processing-Java's Visual Processing
+- In Java, Strings are Classes, not primitives
+- Declaring variable types based on domain & number system, and memory needed
+- Difference between global and local variables
+- How to initialize variables (Processing-Java's Geometry Issue)
+
+
+**CONTINUE with Video #2**
+
+
+
+
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 1: [3] Expressions and Assignment Statements
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 1: [4] Compound Assignment Operators
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 1: [5] Casting and Ranges of Variables
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Summary, See Course / Faculty Lectures by Unit: [1] Primitive Data Types in Java
+- All information contained in the Video
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 1: Personal Progress Check: Please Complete
+
+### Unit 3: [1] Boolean Expressions
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 3: [2] IF Statements and Control Flow
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 3: [3] IF-ELSE Statements
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 3: [4] ELSE IF Statements
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 4: [1] WHILE Loops
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 4: [2] FOR Loops
+
+**Using Processing-JAVA**
+**Using Pure Java**
+**[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ---
 
