@@ -255,11 +255,6 @@ Purpose: Demonstrate the System Class Method
 - writing expressions to meet various domains for Boolean
 - And, OR, Not Boolean Statements and short cuts for these
 
-
-**CONTINUE HERE**
-
-
-
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
@@ -284,6 +279,8 @@ Purpose: Demonstrate the System Class Method
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 3: [4] ELSE IF Statements
+- Cascading IFs, indpendantly
+- When nested, functions like AND
 
 **Using Processing-JAVA**
 **Using Pure Java**
