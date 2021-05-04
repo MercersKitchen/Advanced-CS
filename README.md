@@ -28,9 +28,10 @@ Quick Links
 - Unit 3: [4] ELSE IF Statements
 - Unit 4: [1] WHILE Loops
 - Unit 4: [2] FOR Loops
-- MagPie Materials, <a href="https://drive.google.com/drive/folders/1S4ltml0HmHFz_uAr3YmDzSh2l_dM56eD?usp=sharing">
+- MagPie Materials
+  - <a href="https://drive.google.com/drive/folders/1S4ltml0HmHFz_uAr3YmDzSh2l_dM56eD?usp=sharing">
 Student Materials, Google Drive</a>,
-<a href="https://drive.google.com/drive/folders/1N3zOfqjTtstTDwWA19hVGr0CMSz7s4Rl">
+  - <a href="https://drive.google.com/drive/folders/1N3zOfqjTtstTDwWA19hVGr0CMSz7s4Rl">
 Mr. Mercer Materials, Google Drive</a>
 
 ## Review of CS20 Topics
