@@ -134,6 +134,11 @@ Consider
 - Using Pure Java & CMD Window with the Java Compiler
 - [OPTIONAL] Using JavaScript & Chrome
 
+Comment on Problem Solving ... what creates a problem?
+- Teacher generated for a particular lesson
+- Student generated to think through a problem
+- What is real, what is abstracted (Big M Mathematics)
+
 ### Unit 1: [1] Why Programming? Why Java?
 - Console Output
 - Computer Setup | IDEs
@@ -179,31 +184,55 @@ Purpose: Demonstrate the System Class Method
 - Declaring variable types based on domain & number system, and memory needed
 - Difference between global and local variables
 - How to initialize variables (Processing-Java's Geometry Issue)
-
-
-**CONTINUE with Video #2**
-
-
-
-
+-  Modifier: final (constant), name is written in all CAPS
+- Naming variables: snake, camel, 1D array
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 1: [3] Expressions and Assignment Statements
+- Arithmetic ()*/%+-
+- Calculator project: printing buttons pressed, showing partial answers, showing final answers, maximizing memory by declaring correct variables based on domain
+- Difference between "3" (three) and 3: numbers and literals
+- Use casting, concatenation (introduction only, show an example only)
+- integers answer in integers, with modulus
+- floats and doubles can be formatted with specific decimals (truncated or rounded) by significant digits or "printing"
+- Order of operations, including exponents and parenthesis, reading left to right, whatever order these are found
+- ArithmeticException: divide by zero (use try-catch, if)
+- NAN: not a number variable check
+- flowchart about parsing numbers (logic games)
+- numbers are literal values with magnitude (x=7 not same as 7=x, 7 has a fixed meaning, similar to keyword)
+- what does = vs. == vs. === mean
+- note: easist modulus problem is even, odd numbers
+- math class: modulus problem, prime factoring (find primes, division rules to see if possible, representing in tree-diagram)
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 1: [4] Compound Assignment Operators
+- two step process: variable change, then assign or assign, then change variable
+- short cuts in coding
+- "counting formulae": lowest common multiples, great common factors, timers
+- tracing code on paper (partner coding by printing code that works or partially works), what a complier does (HEAP Sheet)
+- increment operator x++ (++x excluded): specific x+=1 or x=x+1
+- decrement operator x-- (--x excluded): specific x-=1 or x=x-1
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 1: [5] Casting and Ranges of Variables
+- casting: widening or narrowing the amount of memory assigned to variables or expressions
+- using actual numbers with significant digits or casting using truncation
+- using parsing
+- Overflow error: between Integer.MIN_VALUE & Integer.MAX_VALUE
+  2147483647 to -214748368
+  Constants contained in Integer Class
+- Overflow errors outputs unexpected numbers (called "roll overs")
+- Double is 14-15 digits
+- Allowable ranges could be checked within Integers
 
 **Using Processing-JAVA**
 **Using Pure Java**
@@ -218,6 +247,11 @@ Purpose: Demonstrate the System Class Method
 ### Unit 1: Personal Progress Check: Please Complete
 
 ### Unit 3: [1] Boolean Expressions
+
+
+**CONTINUE HERE**
+
+
 
 **Using Processing-JAVA**
 **Using Pure Java**
