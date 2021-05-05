@@ -28,9 +28,26 @@ Quick Links
 - Unit 3: [4] ELSE IF Statements
 - Unit 4: [1] WHILE Loops
 - Unit 4: [2] FOR Loops
-- MagPie Materials
-  - <a href="https://drive.google.com/drive/folders/1S4ltml0HmHFz_uAr3YmDzSh2l_dM56eD?usp=sharing">Student Materials, Google Drive</a>
-  - <a href="https://drive.google.com/drive/folders/1N3zOfqjTtstTDwWA19hVGr0CMSz7s4Rl">Mr. Mercer Materials, Google Drive</a>
+- Review of Processing-JAVA
+  - Geomtery: Fullscreen, Landscape-Portrait-Square
+  - 2D Images
+  - Text
+  - Images
+  - Keyboard and Mouse Interactions (including buttons)
+  - Music and Sound Effects
+  - Saving Game States
+  - Outputting Story lines in a text file
+- Coding Project to Emphasize Concepts
+  - "Choose your own adventure" Coding Project (Structured or Procedural Programming)
+    - Written Story
+    - Case Study for Script
+    - Computational Thinking: flowchart and organization of 'slides and information'
+      - Includes data mutation (assignment and arithmetic, HEAP Sheet tracking)
+    - Review entire code with **Object** Lens
+  - MagPie Materials (Object Orientated Programming)
+    - Conversation Flowchart
+    - <a href="https://drive.google.com/drive/folders/1S4ltml0HmHFz_uAr3YmDzSh2l_dM56eD?usp=sharing">Student Materials, Google Drive</a>
+    - <a href="https://drive.google.com/drive/folders/1N3zOfqjTtstTDwWA19hVGr0CMSz7s4Rl">Mr. Mercer Materials, Google Drive</a>
 
 ## Review of CS20 Topics
 - Unit 3: [5] Compound Boolean Expressions
@@ -43,6 +60,7 @@ Quick Links
 - OMIT (for now), Unit 4: Informal Code Analysis
 - Summary, See Course / Faculty Lectures by Unit: [4] Four loops to while the time away
 - [x] Unit 4: Personal Progress Check
+- See CS10 Coding Project Introduced Above, <a href="https://github.com/MercersKitchen/Advanced-CS#review-of-cs10-topics">Click Here</a>
 
 ## Class Introduction (CS30)
 - Unit 2: [1] Objects - Instances of Classes
@@ -74,6 +92,9 @@ Quick Links
 - [OPTIONAL] Unit 4: Personal Progress Check
 - [x] Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
 - [x] Unit 5: Personal Progress Check
+- Coding Project: Atari's Pong (OOP Case Study)
+- Coding Project: MagPie in CMD Window with Pure Java
+  - Using Scanner or JOptionPane
 
 ## Data Structure - Arrays (CS20-30)
 - Unit 6: [1] Array Creation and Access
@@ -287,12 +308,28 @@ Purpose: Demonstrate the System Class Method
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 4: [1] WHILE Loops
+- "When you do not know how many iterations you need"
+- Note: pilot controls often use `while (true) {}`, also called an infinite loop since expression evaluates to "true" always
+- need way of tracking when expression evaluates to false from within the WHILE Loop
+- Mimic FOR Loop with unknown finish
+- Loop code finishes and updates expression to evaluate to FALSE
+- Introducing WHILE Loops often deals with numbers
+  - %10 finds last digit
+  - Other division rules
+  - GCF, LCM
+  - Even, Odd
+  - Finding Prime numbers
+
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 4: [2] FOR Loops
+-
+
+**CONTINUE with Video FOR Loop #2**
+
 
 **Using Processing-JAVA**
 **Using Pure Java**
