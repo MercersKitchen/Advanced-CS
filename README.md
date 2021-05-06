@@ -319,21 +319,59 @@ Purpose: Demonstrate the System Class Method
   - GCF, LCM
   - Even, Odd
   - Finding Prime numbers
-
+- WHILE Loops are meant for more complicated iterations
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
 
 ### Unit 4: [2] FOR Loops
--
-
-**CONTINUE with Video FOR Loop #2**
-
+- FOR Loops can be WHILEs and vise-vers-a
+  - Loop control variable, Boolean Condition, incrementing loop control variable
+  - incrementing
+    - FOR: at beginning, very specific
+    - WHILE: at end, or in multiple statements
+  - Used for traversing data structures like arrays
+- "Off by one" errors: inequalities functioning with computer numbers (zero included)
+  - where to start, where to finish
+  - using double inequalities (>=)
+- Writing short FOR & WHILE Loops that does specific counting and skip counting
+  - even, odd, primes, skip counting
+- Flowchart for counting points in crib
+  - Note: dealing cards is a random function with decreasing values in 52-length array
+  - FOR Loop populating single-if
+- What are other card games that do the same thing?
 
 **Using Processing-JAVA**
 **Using Pure Java**
 **[OPTIONAL] Using JavaScript & Chrome**: UNDERCONSTRUCTION, see Websites
+
+### Unit 4: [3] Developing Algorithms Using Strings
+- Note: this is shifted to CS30 and combined with Unit 2
+- Uses FOR Loop to traverse
+  - .substring, .equals, .length, concatenation
+- How do I ID sentences and parse these out
+- How do I take a phrase and parse out the words
+- How do I find a word inside another word (word, sub-word)
+- How can redundancy of checking increase the probability that the algorithm works correctly
+- How many vowels exist within a word, phrase, or sentence?
+  - How can I check with the least number of counting
+  - Use OR Boolean in if
+- Create a new string value by reversing the order of the characters
+  - Palindrome: kayak, wow, rotator, racecar, dad, civic, radar, Go Dog, Never Odd or Even
+  - Palindrome Word Squares
+- Students must answer how algorithms lead to code and how code can be more efficient (Big O)
+
+### Unit 3: [5] Compound Boolean Expressions
+
+### Unit 3: [6] Equivalent Boolean Expressions
+
+### Unit 3: Comparing Objects
+
+### Unit 4: [4] Nested Iteration
+
+### Unit 4: Informal Code Analysis
+
 
 ---
 
