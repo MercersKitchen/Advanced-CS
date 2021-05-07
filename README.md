@@ -143,6 +143,8 @@ Quick Links
 - [x] Review Session 3: How to Use Algorithm with Arrays & ArrayList
 - [x] Review Session 4: Exam Details and Strategies for 2021 & 2D Arrays
 
+**More Videos added here**
+
 Consider
 - Video Length
 - Vocabulary words and content
@@ -369,8 +371,17 @@ Purpose: Demonstrate the System Class Method
 ### Unit 3: Comparing Objects
 
 ### Unit 4: [4] Nested Iteration
+- Chest Board Example, start with simpler numbers
+  - Simpler example output " 1. * | 2. ** | 3. *** "
+  - Outer loop produces the number of the line
+  - Inner loop produces 1 & 2
 
 ### Unit 4: Informal Code Analysis
+- Counting line executions: how many times a line executes
+  - Real number of lines of code
+  - FOR & WHILE Loops will give opportunity, but IF Conditionals might lockout execution
+
+**Continue with Video 2**
 
 
 ---
