@@ -30,13 +30,13 @@ Quick Links
 - Unit 4: [2] FOR Loops
 - Review of Processing-JAVA
   - Geomtery: Fullscreen, Landscape-Portrait-Square
-  - 2D Images
+  - 2D Images (rectangles, triangles, lines, circles)
   - Text
-  - Images
+  - Images (pictures like .mp3, GIFs)
   - Keyboard and Mouse Interactions (including buttons)
   - Music and Sound Effects
-  - Saving Game States
-  - Outputting Story lines in a text file
+  - Saving Game States (enrichment)
+  - Outputting Story lines in a text file (enrichment)
 - Coding Project to Emphasize Concepts
   - "Choose your own adventure" Coding Project (Structured or Procedural Programming)
     - Written Story
@@ -365,10 +365,35 @@ Purpose: Demonstrate the System Class Method
 - Students must answer how algorithms lead to code and how code can be more efficient (Big O)
 
 ### Unit 3: [5] Compound Boolean Expressions
+- Nested IF, IF-ELSE, IF-ELSEIF-ELSE
+- Flowchart this "choose" your own adventures
+
 
 ### Unit 3: [6] Equivalent Boolean Expressions
+- De Morgan Law's to compare and contrast equivalent Boolean Expressions
+  - !(a && b) = (!a || !b)
+  - !(a || b) = (!a && !b)
+- Comments about not (imagine on 1D Number Line)
+  - !(x>0) = (x<=0)
+  - !(x<0) = (x>=0)
+  - !(x>=0) = (x<0)
+  - !(x<=0) = (x>0)
+  - !(x==0) = (x!=0)
+  - !(x!=0) = (x==0)
+- Expressions to test equivalency
+- How do these become AND, OR, NOT Statements, evaluated quickly?
+- Using Truth Tables (2 variables, 4 rows deep)
+  - P, Q P&Q, P||Q, !P, !Q, !(a && b) = (!a || !b), !(a || b) = (!a && !b)
+  - Expressions to test: P||Q&&P, (P||Q)||P, P&&(P||Q)
+  - Introduces idea of short-circuit in Booleans
+    i.e. if (a == b || c == d || e == f), a == b is true, then rest is not evaluated because the express is evaluated
+- Include examples of "Choose Own Adventure" in these examples
+- Note: able to println to console to check values
 
 ### Unit 3: Comparing Objects
+- ID Aliases and Null Values
+- == refers to same memory location
+- .equals compares the attributes of two objects to determine equivalency
 
 ### Unit 4: [4] Nested Iteration
 - Chest Board Example, start with simpler numbers
@@ -380,8 +405,25 @@ Purpose: Demonstrate the System Class Method
 - Counting line executions: how many times a line executes
   - Real number of lines of code
   - FOR & WHILE Loops will give opportunity, but IF Conditionals might lockout execution
+- Develop questions around IF Conditionals, FOR & While COnditionals
 
-**Continue with Video 2**
+### Unit 2: [1] Objects - Instances of Classes
+
+### Unit 2: [2] Creating and Storing Objects (Instantiation)
+
+### Unit 2: [3] Calling a Void Method
+
+### Unit 2: [4] Calling a Void Method with Parameters
+
+### Unit 2: [5] Calling a Non-void Method
+
+### Unit 2: [6] String Objects - Concatenation, literals, and More
+
+### Unit 2: [7] String Methods
+
+### Unit 2: [8] Wrapper Classes - Integer and Double
+
+### Unit 2: [9] Using the Math Class
 
 
 ---
