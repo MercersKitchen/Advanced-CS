@@ -35,9 +35,11 @@ Quick Links
     - Commenting and Console Debugging with `println`
   - Geometry & Key Variables (reserved words): `fullScreen()`, Landscape-Portrait-Square
     - Using Case Studies to develop Geometry Ratios
+    - Using check and console or canvas feedback for user adjusted orientation
   - 2D Images (rectangles, triangles, lines, circles): geometry-referenced variables (vertices, etc.) & parameters of 2D Primitives
-  - Text: using `rect()` for placement
+  - Text: using `rect()` for placement (developing auto-size algorithm)
   - Images (pictures like .mp3, GIFs): using `rect()` for placement
+    - Consider Orientation and auto-size algorithm based on largest size 
   - Keyboard and Mouse Interactions (including buttons): using geometry-referenced variables
   - Music and Sound Effects
   - Saving Game States (enrichment)
