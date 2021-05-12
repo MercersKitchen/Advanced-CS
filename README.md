@@ -29,11 +29,16 @@ Quick Links
 - Unit 4: [1] WHILE Loops
 - Unit 4: [2] FOR Loops
 - Review of Processing-JAVA
-  - Geomtery: Fullscreen, Landscape-Portrait-Square
-  - 2D Images (rectangles, triangles, lines, circles)
-  - Text
-  - Images (pictures like .mp3, GIFs)
-  - Keyboard and Mouse Interactions (including buttons)
+  - Introduction to Static Vs. Dynamic Programming (static for prototyping)
+    - Global vs. local Variables
+    - Declaration vs. Population vs. reference
+    - Commenting and Console Debugging with `println`
+  - Geometry & Key Variables (reserved words): `fullScreen()`, Landscape-Portrait-Square
+    - Using Case Studies to develop Geometry Ratios
+  - 2D Images (rectangles, triangles, lines, circles): geometry-referenced variables (vertices, etc.) & parameters of 2D Primitives
+  - Text: using `rect()` for placement
+  - Images (pictures like .mp3, GIFs): using `rect()` for placement
+  - Keyboard and Mouse Interactions (including buttons): using geometry-referenced variables
   - Music and Sound Effects
   - Saving Game States (enrichment)
   - Outputting Story lines in a text file (enrichment)
