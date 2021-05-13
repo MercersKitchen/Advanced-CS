@@ -39,22 +39,14 @@ Quick Links
   - 2D Images (rectangles, triangles, lines, circles): geometry-referenced variables (vertices, etc.) & parameters of 2D Primitives
   - Text: using `rect()` for placement (developing auto-size algorithm)
   - Images (pictures like .mp3, GIFs): using `rect()` for placement
-    - Consider Orientation and auto-size algorithm based on largest size 
+    - Consider Orientation and auto-size algorithm based on largest size
   - Keyboard and Mouse Interactions (including buttons): using geometry-referenced variables
   - Music and Sound Effects
   - Saving Game States (enrichment)
   - Outputting Story lines in a text file (enrichment)
 - Coding Project to Emphasize Concepts
-  - "Choose your own adventure" Coding Project (Structured or Procedural Programming)
-    - Written Story
-    - Case Study for Script
-    - Computational Thinking: flowchart and organization of 'slides and information'
-      - Includes data mutation (assignment and arithmetic, HEAP Sheet tracking)
-    - Review entire code with **Object** Lens
-  - MagPie Materials (Object Orientated Programming)
-    - Conversation Flowchart
-    - <a href="https://drive.google.com/drive/folders/1S4ltml0HmHFz_uAr3YmDzSh2l_dM56eD?usp=sharing">Student Materials, Google Drive</a>
-    - <a href="https://drive.google.com/drive/folders/1N3zOfqjTtstTDwWA19hVGr0CMSz7s4Rl">Mr. Mercer Materials, Google Drive</a>
+  - "Choose your own adventure" Coding Project (Structured or Procedural Programming), <a her="https://github.com/Advanced-App-Dev-and-Deploy/Choose-Own-Adventure">Click Here for Progressions</a>
+  - MagPie Materials (Object Orientated Programming), <a href">Click Here when Repo Ready</a>
 
 ## Review of CS20 Topics
 - Unit 3: [5] Compound Boolean Expressions
