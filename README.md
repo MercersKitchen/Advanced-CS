@@ -435,7 +435,15 @@ Purpose: Demonstrate the System Class Method
 - Build Geometry Checker (to encapsulate in Table Class)
 - Build Ball Class
   - Two separate objects, to be included as an array
+- Ball Class communicates with Table Class to set top and bottom of table
+  - Use getters and setters for security of classes
 
+
+### To Include
+- Dark Mode
+- Quit Button
+- Reset Button to start new game
+- Access Modifiers 
 
 ---
 
