@@ -427,6 +427,18 @@ Purpose: Demonstrate the System Class Method
 
 ---
 
+# Introductions to Object Orientated Programming - Pong
+
+
+### Under Construction
+- Map Driver and Classes
+- Build Geometry Checker (to encapsulate in Table Class)
+- Build Ball Class
+  - Two separate objects, to be included as an array
+  
+
+---
+
 # To Include
 
 Question: AND, OR, NOT, influencing control flow, related to IF-ELSE
