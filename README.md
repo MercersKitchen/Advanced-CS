@@ -5,7 +5,7 @@ Android App Development using Classes in Processing-JAVA and Pure Java
 
 Quick Links
 - Using AP Videos: <a href="https://github.com/MercersKitchen/Advanced-CS#using-advanced-placement-videos">Click Here</a>
-- Problem Solving using Object Orientated Programming by simulating Pong ("The First Video Game meant for Training"), <a href="">Click Here when Available</a>
+- Problem Solving using Object Orientated Programming by simulating Pong ("The First Video Game meant for Training"), <a href="https://github.com/MercersKitchen/Advanced-CS#introductions-to-object-orientated-programming---pong">Click Here & Jump to Bottom</a>
 
 ---
 
@@ -435,7 +435,7 @@ Purpose: Demonstrate the System Class Method
 - Build Geometry Checker (to encapsulate in Table Class)
 - Build Ball Class
   - Two separate objects, to be included as an array
-  
+
 
 ---
 
