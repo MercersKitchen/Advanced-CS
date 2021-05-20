@@ -18,7 +18,7 @@ class Ball {
     this.xSpeed = random(0, 5);
     this.ySpeed = random(0, 5);
   } //End Constructor
-
+  //
   void move () {
     if (x-(diameterX*0.5)+xSpeed < 0 || x+(diameterX*0.5)+xSpeed > displayWidth) xSpeed *= -1; //notice ball radius for bounce
     if (y-(diameterY*0.5)+ySpeed < topTable || y+(diameterY*0.5)+ySpeed > bottomTable) ySpeed *= -1; //notice ball radius for bounce
@@ -26,8 +26,7 @@ class Ball {
     x += xSpeed;
     y += ySpeed;
   }//End move()
-
-
+  //
   void draw() {
     noStroke();
     fill(ballColour); //Ball Colour

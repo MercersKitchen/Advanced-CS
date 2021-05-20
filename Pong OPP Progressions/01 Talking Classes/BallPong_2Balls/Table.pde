@@ -9,7 +9,7 @@ class PongTable {
   float buttonStartX, buttonStartY, buttonEndX, buttonEndY;
 
   PongTable(int displayWidth, int displayHeight, Boolean darkMode) {
-    checkGeometry(displayWidth, displayHeight);
+    checkGeometry(displayWidth, displayHeight); //Since Geomtery can change at anytime, this needs to be checked every time
     this.darkMode = darkMode;
     darkMode(darkMode);
     this.scoreBoardStartX = displayWidth*0;

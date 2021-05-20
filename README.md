@@ -438,7 +438,7 @@ Purpose: Demonstrate the System Class Method
 - Ball Class communicates with Table Class to set top and bottom of table
   - Use getters and setters for security of classes
   - Note: uses `value` that is insecure; changed in later versions
-
+- Layout rest of Table (net, GUI for Scoreboard and Buttons)
 
 
 ### To Include
@@ -446,6 +446,8 @@ Purpose: Demonstrate the System Class Method
 - Quit Button
 - Reset Button to start new game
 - Access Modifiers
+- Increase ball speed as score equalizer (modular)
+- Increase number of balls if score does not increase in a certain time limit
 
 - AP Video about multiple drivers (Unit 2, Video 2)
 
