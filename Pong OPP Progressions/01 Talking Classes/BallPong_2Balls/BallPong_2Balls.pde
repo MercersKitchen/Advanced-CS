@@ -18,6 +18,7 @@ void setup() {
   yourBall = new Ball (displayWidth, displayHeight);
   table = new PongTable (displayWidth, displayHeight, darkModeButton);
   //Setting Bottom of Table for Bouncing Pong Ball
+  //Remember: extra variable in insecure and will change in future versions of the program
   value = table.getScoreBoardStartY();
   myBall.setTopTable(value);
   yourBall.setTopTable(value);

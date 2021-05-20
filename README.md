@@ -437,13 +437,17 @@ Purpose: Demonstrate the System Class Method
   - Two separate objects, to be included as an array
 - Ball Class communicates with Table Class to set top and bottom of table
   - Use getters and setters for security of classes
+  - Note: uses `value` that is insecure; changed in later versions
+
 
 
 ### To Include
 - Dark Mode
 - Quit Button
 - Reset Button to start new game
-- Access Modifiers 
+- Access Modifiers
+
+- AP Video about multiple drivers (Unit 2, Video 2)
 
 ---
 
