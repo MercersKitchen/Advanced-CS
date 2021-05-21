@@ -8,8 +8,6 @@ class Star {
     diameter = diameterParameter;
   }//End Constructor
   //
-  void draw() {
-    ellipse(x, y, diameter, diameter);
-  }//End draw()
+  //void draw() {}//End draw()
   //
 }//End Star
