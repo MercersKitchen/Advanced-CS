@@ -439,7 +439,8 @@ Purpose: Demonstrate the System Class Method
   - Use getters and setters for security of classes
   - Note: uses `value` that is insecure; changed in later versions
 - Layout rest of Table (net, GUI for Scoreboard and Buttons)
-
+- Prototype various effects with ball class
+  - these need to be incorporated into the class
 
 ### To Include
 - Dark Mode
@@ -454,6 +455,11 @@ Purpose: Demonstrate the System Class Method
 ---
 
 # To Include
+
+CAUTION: notes about mixing Pure Java and Processing.Java classes
+- Pure Java is for arithmetic and console work only at CS30 level
+- Programs will work if Processing-Java is driver and classes are .java (Pure Java)
+- Programs will not work if classes are extended .java to processing.java for arithmetic inheritance
 
 Question: AND, OR, NOT, influencing control flow, related to IF-ELSE
 Question: IF-ELSEIF-ELSE

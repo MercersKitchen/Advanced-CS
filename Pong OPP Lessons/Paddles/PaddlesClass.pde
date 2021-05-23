@@ -1,4 +1,4 @@
-class PaddlesClass {
+public class PaddlesClass {
   float x;
   float y;
   float rectWidth;
@@ -6,6 +6,8 @@ class PaddlesClass {
   float yMove;
   Boolean up;
   boolean down;
+  
+  //public static int numberOfPaddles = 2; //Might only happen in .java classes
 
   PaddlesClass (float parameterWidth, float parameterHeight, float locationRatio, float shift) {
     // locationRatio must be decimal, trunction

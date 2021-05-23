@@ -1,0 +1,14 @@
+
+Combine Night Stars and Chase into Black Hole
+- Review the lessons of Night Stars and Chase Metaphors
+- Once Coding is complete, reveiw black hole code
+
+Firework
+- Example of Firework exploding like in the sky
+- Firework stays on the table
+- With last mouse click, firework chases in to the black hole of the net where the goal was
+
+Firework Example Behaviours & Easter Eggs
+- Magnet Ball
+- More than one ball
+- Increasing speek based on score
