@@ -1,12 +1,12 @@
 private class Rectangle extends Shape {
-  //Varaibles
+  //Varaibles, all inherited from abstract but maniuplation not executed if exists here in extended
   private color colour;
 
   //Constructor
   //Note: if super-type variable is manipulated here, manipulation from abstract constructor is ignored
   //Only manipulation code here executed
   //CAUTION: in manipulation ignored, parameter entering here is from extended declaration-population
-  //Order of abstract and extended parameters and types important in design 
+  //Order of abstract and extended parameters and types important in constructor design 
   private Rectangle(float x, float y, float w, float h, color c) {
     super(x, y, w, h);
     this.colour = c;
