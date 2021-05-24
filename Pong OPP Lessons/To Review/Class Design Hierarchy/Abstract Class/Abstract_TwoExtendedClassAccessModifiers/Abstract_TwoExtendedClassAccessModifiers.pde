@@ -29,7 +29,9 @@ private abstract class Shape {
   public float w;
   public float h;
   //Mistake with hierarchy variables
-
+  
+  //Parameter from extended declaration-population enters abstract constructor and any manipulation here is executed
+  //Then variable is passed to super() in exended class
   private Shape (float xParameter, float yParameter, float wParameter, float hParameter) {
     this.x = xParameter;
     this.y = yParameter;
