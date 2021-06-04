@@ -1,4 +1,10 @@
 
+What is Pong Reviewing
+- Add References to CSA & CSP
+
+
+To Consider
+
 Behaviours to Illustrate
 - scoring starts firworks
 - embers stay on screen
