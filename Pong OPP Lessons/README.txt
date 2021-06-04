@@ -1,6 +1,9 @@
 
-What is Pong Reviewing
+What is Pong Reviewing from Previous Courses
 - Add References to CSA & CSP
+
+- Creating and Maintaining a GitHub Account
+- External Documentation: ReadMe Files
 
 
 To Consider
@@ -13,3 +16,7 @@ Behaviours to Illustrate
 Class Design to Illustrate
 - paddles
 - ball to firworks
+
+
+External Documentation
+ReadMe.md, ReadMe.txt, and Introductions to GitHub Markdown
