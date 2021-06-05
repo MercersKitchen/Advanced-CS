@@ -7,12 +7,27 @@ Quick Links
 - Using AP Videos: <a href="https://github.com/MercersKitchen/Advanced-CS#using-advanced-placement-videos">Click Here</a>
 - Problem Solving using Object Orientated Programming by simulating Pong ("The First Video Game meant for Training"), <a href="https://github.com/MercersKitchen/Advanced-CS#introductions-to-object-orientated-programming---pong">Click Here & Jump to Bottom</a>
 
+Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-Dev-and-Deploy/Pong-Exemplars
+
+
 ---
 
-# Using Advanced Placement Videos
-- Outline of Topics, <a href="https://github.com/MercersKitchen/Advanced-CS#outline-of-all-topics">Click Here</a>
+# Getting Started
+- Creating and Maintaining a GitHub Account: https://github.com/MercersKitchen/Creating-a-GitHub-Repository
+- External Documentation: ReadMe Files: see DOC already made
+  - External Documentation: ReadMe.md, ReadMe.txt, and Introductions to GitHub Markdown
+  - https://github.com/Intro-CS-App-Dev-and-Deploy/External-Documentation
+- Documentation of Project Presentations: https://github.com/Intro-CS-App-Dev-and-Deploy/Presentation-Documentation
+- Updating Processing-Java
+  - Downloading Processing run locally on Parent Folder
+  - Create Links in Start Menu to .exe
+  - Use GitHub Repository to save Files Locally, then updating to GitHub Server
 
-## Outline of all Topics
+**Example New Processing File**: https://github.com/Advanced-App-Dev-and-Deploy/New-Processing-Examples
+
+---
+
+# Review of Introductory and Intermediate CS, Processing-Java
 
 ### Review of CS10 Topics
 - Unit 1: [1] Why Programming? Why Java?, <a href="">Click here when active</a>
@@ -48,20 +63,41 @@ Quick Links
   - "Choose your own adventure" Coding Project (Structured or Procedural Programming), <a her="https://github.com/Advanced-App-Dev-and-Deploy/Choose-Own-Adventure">Click Here for Progressions</a>
   - MagPie Materials (Object Orientated Programming), <a href">Click Here when Repo Ready</a>
 
-## Review of CS20 Topics
-- Unit 3: [5] Compound Boolean Expressions
-- Unit 3: [6] Equivalent Boolean Expressions
-- [x] Summary, See Course / Faculty Lectures by Unit: [3] Boolean Expressions and IF Statements
-- OMIT (for now), Unit 3: Comparing Objects
-- [x] Unit 3: Personal Progress Check
-- Unit 4 (note: review of similar algorithms from visual data): [3] Developing Algorithms Using Strings
-- Unit 4: [4] Nested Iteration
-- OMIT (for now), Unit 4: Informal Code Analysis
-- Summary, See Course / Faculty Lectures by Unit: [4] Four loops to while the time away
-- [x] Unit 4: Personal Progress Check
-- See CS10 Coding Project Introduced Above, <a href="https://github.com/MercersKitchen/Advanced-CS#review-of-cs10-topics">Click Here</a>
+### Review of CS20 Topics
+  - Unit 3: [5] Compound Boolean Expressions
+  - Unit 3: [6] Equivalent Boolean Expressions
+  - [x] Summary, See Course / Faculty Lectures by Unit: [3] Boolean Expressions and IF Statements
+  - OMIT (for now), Unit 3: Comparing Objects
+  - [x] Unit 3: Personal Progress Check
+  - Unit 4 (note: review of similar algorithms from visual data): [3] Developing Algorithms Using Strings
+  - Unit 4: [4] Nested Iteration
+  - OMIT (for now), Unit 4: Informal Code Analysis
+  - Summary, See Course / Faculty Lectures by Unit: [4] Four loops to while the time away
+  - [x] Unit 4: Personal Progress Check
+  - See CS10 Coding Project Introduced Above, <a href="https://github.com/MercersKitchen/Advanced-CS#review-of-cs10-topics">Click Here</a>
 
-## Class Introduction (CS30)
+
+### Previous Coding Exemplars
+- Drawing Text: https://github.com/Intro-CS-App-Dev-and-Deploy/Rect-Application-Text
+- Drawing an Image: https://github.com/Intro-CS-App-Dev-and-Deploy/Rect-Application-Image
+- Drawing Composite Shapes: https://github.com/Intro-CS-App-Dev-and-Deploy/Composite-Shapes
+- Creating Buttons: https://github.com/Intro-CS-App-Dev-and-Deploy/Rect-Application-Quit-Button
+- Summary, "Home Screen Project": https://github.com/Intro-CS-App-Dev-and-Deploy/3x3-Home-Screen
+- Adding Sound Effects and Music: https://github.com/Intro-CS-App-Dev-and-Deploy/App-Development
+- Screen Size Checker (Geometry Orientation, checking of display orientation and sizes, quitting application and sending feedback to developer): see CS20 When Ready
+- Text Font Calculator: see CS20 When Ready
+- Using JSON Data and Other APIs: see CS20 When Ready
+
+### Topics to Emphasize
+- Geometry & Ratios: Leads to "one value entry" and "data manipulation"
+  - Landscape, Portrait, and Square checking and geometry
+- Arithmetic for drawing on canvas: leads to Pure Java Classes
+
+---
+
+# Progressions in Pong Teaching Exemplar
+
+## Introduction to Classes
 - Unit 2: [1] Objects - Instances of Classes
 - Unit 2: [2] Creating and Storing Objects (Instantiation)
 - Unit 2: [3] Calling a Void Method
@@ -73,6 +109,17 @@ Quick Links
 - Unit 2: [9] Using the Math Class
 - [x] Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
 - [x] Unit 2: Personal Progress Check
+
+
+---
+
+# Using Advanced Placement Videos
+
+## Outline of all Topics
+
+
+
+## Class Introduction (CS30)
 
 ## Class Building (CS30)
 - Unit 5: [1] Anatomy of a Class
@@ -494,5 +541,18 @@ Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user
 - define data & behaviours
 - coding a social media example
 
+
+---
+
+To Consider
+
+Behaviours to Illustrate
+- scoring starts firworks
+- embers stay on screen
+- mouseClick and embers got to goal spot
+
+Class Design to Illustrate
+- paddles
+- ball to firworks
 
 ---

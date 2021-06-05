@@ -1,8 +1,0 @@
-
-Mandatory Features
-
-
-Advanced Features
-- Volley Counter
-- Ball Speed based on score
-- Additional paddles added based on score
