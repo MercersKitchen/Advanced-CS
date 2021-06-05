@@ -555,4 +555,10 @@ Class Design to Illustrate
 - paddles
 - ball to firworks
 
+Advanced Features
+- Volley Counter
+- Ball Speed based on score
+- Additional paddles added based on score
+
+
 ---
