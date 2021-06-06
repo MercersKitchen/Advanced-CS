@@ -96,6 +96,12 @@ Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-De
 ---
 
 # Progressions in Pong Teaching Exemplar
+- Paired Programming Activity
+- Focuses on Vocabulary and questions to guide program development
+- Goal: two ellipses functioning like Pong Balls in a box
+- Progression: Create a Program with ... Routines for typing
+  - Driver Program
+  - Class additions (visual data and mathematical data)
 
 ## Introduction to Classes
 - Unit 2: [1] Objects - Instances of Classes
@@ -109,6 +115,78 @@ Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-De
 - Unit 2: [9] Using the Math Class
 - [x] Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
 - [x] Unit 2: Personal Progress Check
+
+## Coding Examples: Intro OOP Paired Programming Exemplars
+- *Developing a Pong Game: visual data*
+- See Summary: <a href="">Click Here</a>
+- What is an Object: instance (Driver Program) and list of variables (Class Program), <a href="https://github.com/Advanced-App-Dev-and-Deploy/An-Object-Is">Click Here</a>
+- What is a Constructor: assigning variables (similar to population of display geometry), <a href="https://github.com/Advanced-App-Dev-and-Deploy/A-Constructor-Is">Click Here</a>
+  - Note: here population occurs in driver while variables live in class, encapsulation (security) requires population lives in class
+  - Note: able to have multiple constructors in one class
+  - Able to have passing parameters or no parameters, but still constructor and objects
+- What is arithmetic in a class: drawing object, calculating next location, repeat (call animation), <a href="https://github.com/Advanced-App-Dev-and-Deploy/Progressions-of-Arithemtic">Click Here for Entire Repository</a>
+  - This progressions illustrates encapsulation
+  - See ArithemticIs, <a href="https://github.com/Advanced-App-Dev-and-Deploy/Progressions-of-Arithemtic/tree/main/ArithemticIs">Click Here</a>
+    - Arithmetic in Driver
+    - Object does not know about itself yet
+  - See ArithemticInObject, <a href="https://github.com/Advanced-App-Dev-and-Deploy/Progressions-of-Arithemtic/tree/main/ArithemticInObject">Click Here</a>
+    - Arithmetic in Object: variables are changed in Class Program and used by Driver
+  - See ArithemticInClassObject, <a href="https://github.com/Advanced-App-Dev-and-Deploy/Progressions-of-Arithemtic/tree/main/ArithemticInClassObject">Click Here</a>
+  - See AirthmeticInClassObjectMutliple, <a href="https://github.com/Advanced-App-Dev-and-Deploy/Progressions-of-Arithemtic/tree/main/ArithemticInClassObjectMultiple">Click Here</a>
+    - Notice Starting Position of Object is passed as a parameter (instance must know where to start, how to populate object variables in Constructor)
+
+### Ideas to Consider  
+- Additional Coding Ideas
+  - Include startStop
+  - Include screenSizeChecker
+  - Include Access Modifiers
+  - Address: ball half off the screen
+  - Address: more than one ball, address initial over-lap
+
+  Paired Programming Notes
+
+  What is the Arithemtic to move the ball, every frame (every "step")?
+  - See "ArithmeticIs", <a href="">Click Here</a>
+  - Add speed variables for the X&Y Axis (width and height)
+  - Change the next "step" of where the ball will be
+  - Add the collisions to the ball with the Canvas Boundaries (Pong Table Edges)
+
+  What is Class Arithmetic and how is it used?
+  - See "ClassArithemtic", <a href="">Click Here</a>
+  - Move the Arithmetic into the Class ... remember to remove the delimiter
+  - To Ensure these lines of code are updated with each frame of ```void draw() {}```, they need to be in code block
+    - ```void step () {}```
+  - Remember to call the lines of code you want to update in each frame of void draw()
+
+  What are Class Parameters and how are these used?
+  - See "ClassParameters", <a href="">Click Here</a>
+  - Create a Constructor with unique, ```this.```, and hard-coded values
+    - Unique values for x & y
+    - Hard-code diameter, color, xSpeed, & ySpeed (Shared with all Pong Balls)
+  - Create the parameters of the Constructor (what will be passed)
+    - Note: a value can be hard-coded and passed
+  - NOTICE: the first bounce
+    - ```this.``` means the individual objects are able to track their own positions, and the developer knows this by abstraction
+
+  What does it mean to create new Objects and each object knows about it's constructor?
+  - See "ClassObjects", <a href="">Click Here</a>
+  - Also see "ClassObjects_Alternate"
+  - Note: "ClassObjects_Alternate" introduces how Arrays can hold all values after void setup()
+
+  CONTINUE HERE
+
+  Create all values of object based on Ratios of Display Geometry
+  - See https://github.com/QEHS-ProcessingJava/Ideas-for-OPP
+
+  Creating a second ball
+  - With and Without an Array
+
+  Going fullScreen, simple change to ```fullScreen()```
+  - need to check for Squareness?
+
+  <a href="">Click Here</a>
+
+  ---
 
 
 ---
