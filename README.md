@@ -116,6 +116,27 @@ Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-De
 - [x] Summary, see Course / Faculty Lectures by Unit: [2] What is Object-oriented Programming
 - [x] Unit 2: Personal Progress Check
 
+## Class Building (CS30)
+- Unit 5: [1] Anatomy of a Class
+- Unit 5: [2] Constructors
+- Unit 5: [3] Documentation with Comments
+- Unit 5: [4 Accessor Methods
+- Unit 5: [5] Mutator Methods
+- Unit 5: [6] Writing Methods
+- Unit 5: [7] Static Variables and Methods
+- Unit 5: [8] Scope and Access
+- Unit 5: [9] THIS Keyword
+- Unit 5: [10] Ethical and Social Implications of Computing Systems
+- Unit 3: [7] Comparing Objects
+- [OPTIONAL] Unit 3: Personal Progress Check
+- Unit 4: [5] Informal Code Analysis
+- [OPTIONAL] Unit 4: Personal Progress Check
+- [x] Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
+- [x] Unit 5: Personal Progress Check
+- Coding Project: Atari's Pong (OOP Case Study)
+- Coding Project: MagPie in CMD Window with Pure Java
+  - Using Scanner or JOptionPane
+
 ## Coding Examples: Intro OOP Paired Programming Exemplars
 - *Developing a Pong Game: visual data*
 - See Summary: <a href="">Click Here</a>
@@ -199,26 +220,6 @@ Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-De
 
 ## Class Introduction (CS30)
 
-## Class Building (CS30)
-- Unit 5: [1] Anatomy of a Class
-- Unit 5: [2] Constructors
-- Unit 5: [3] Documentation with Comments
-- Unit 5: [4 Accessor Methods
-- Unit 5: [5] Mutator Methods
-- Unit 5: [6] Writing Methods
-- Unit 5: [7] Static Variables and Methods
-- Unit 5: [8] Scope and Access
-- Unit 5: [9] THIS Keyword
-- Unit 5: [10] Ethical and Social Implications of Computing Systems
-- Unit 3: [7] Comparing Objects
-- [OPTIONAL] Unit 3: Personal Progress Check
-- Unit 4: [5] Informal Code Analysis
-- [OPTIONAL] Unit 4: Personal Progress Check
-- [x] Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user defined data types
-- [x] Unit 5: Personal Progress Check
-- Coding Project: Atari's Pong (OOP Case Study)
-- Coding Project: MagPie in CMD Window with Pure Java
-  - Using Scanner or JOptionPane
 
 ## Data Structure - Arrays (CS20-30)
 - Unit 6: [1] Array Creation and Access
