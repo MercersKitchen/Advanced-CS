@@ -1,5 +1,7 @@
-# Pure Java
-Review of Object Orientated Programming (Processing-Java) through Pure Java
+# Pure Java String Introduction
+Review of Object Orientated Programming through Pure Java
+
+Students have Experience with Pong and AP Videos
 
 Purpose of Using Pure Java directly with the Java Compiler through a Command Terminal ...
 - introduction to terminal work for developing (navigating pathways, working with bytecode)
@@ -11,12 +13,6 @@ Guiding Student Documents
 - Java Quick Reference, methods from the Java Library, <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/explore-ap/ap-computer-science-a-2014-java-quick-reference.pdf">Click Here</a>
 - Full Java 7 Reference API, <a href="https://docs.oracle.com/javase/7/docs/api/">Click Here</a>
   - Note: change to other versions of Java by switching the number in the URL
-
-Progressions
-1. Note Taking App in Pure Java (Interacting with Java Compiler through Console using CMD.exe), Case Study
-2. Introduction to Pure Java: Hello World, CMD, and using ARGS[]
-
-
 
 ---
 
@@ -64,54 +60,6 @@ Objects are:
   - Final Classes: access modifier final, cannot be extended
 
 
-Inheritance
-- Square "is a" rectangle relationship (able to access all rectangle variables in square class if square extends rectangle)
-```java
-Rectangle rectangle = new Rectangle(10, 30, 20, 10);
-Square square = new Square(10, 50, 25);
-
-void setup() {
-  size(100, 100);
-}
-
-void draw() {
-  rectangle.draw();
-  square.draw();
-}
-class Rectangle {
-
-  float x;
-  float y;
-  float width;
-  float height;
-
-  Rectangle(float x, float y, float width, float height) {
-    this.x = x;
-    this.y = y;
-    this.width = width;
-    this.height = height;
-  }
-
-  void draw() {
-    fill(255);
-    rect(x, y, width, height);
-  }
-}
-
-class Square extends Rectangle {
-  Square(float x, float y, float length) {
-    super(x, y, length, length);
-  }
-
-  void printMe() {
-    println("X: " + x);
-    println("Y: " + y);
-    println("Width: " + width);
-    println("Height: " + height);
-  }
-}
-
-```
 
 ---
 
