@@ -56,9 +56,8 @@ Progressions
 2. Case Study Adding Two Numbers from ARGS[]
 3. Building the Error Catching and basic "Adding Two Numbers from ARGS[]" Program
    -
-.
+4.
 
-<a href="">Click Here for Descriptions</a>, <a href="">Click Here for Exemplar Program Files</a>
 
 ## Simple Hello World Program
 

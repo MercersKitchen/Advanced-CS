@@ -6,6 +6,17 @@ Students have Experience with Pong and AP Videos
 Purpose of Using Pure Java directly with the Java Compiler through a Command Terminal ...
 - introduction to terminal work for developing (navigating pathways, working with bytecode)
 - develop an interesting text-only program using pure java's built-in args array
+- Building a Routine for writing Pure Java using the CMD.exe (needed for more advanced programming applications)
+
+Quick Links, if needed …
+- <a href="">Tools Used Here</a>
+- <a href="">Create Simple Hello World Program</a>
+
+Progressions (partly to develop routine for executing Pure Java)
+- Create Simple Hello World Program
+- Supply String using CMD
+- Supply String using JOptionPane
+- Supply String using Scanner Class
 
 **UNDER CONSTRUCTION**
 
@@ -163,5 +174,104 @@ Creating Various Projects using Processing-Java, Object Orientated
 
 https://www.androidauthority.com/best-texting-games-text-based-games-android-926860/
 
+
+---
+
+# Tools Used Here
+
+- WINDOWS Folders
+- CMD.exe
+  - Note: able to use PowerShell but instruction will use CMD.exe
+  - Similar to Terminal in Linux (Raspberry Pi Computer) and utilizing devices built for Internet of Things
+- WYSIWYG: Atom (students are able to use text editor of their choice as long as multiple files open concurrently, like Notepad++)
+- JDK (use most recent version unless using EPS-Schoolzone, See BYOD, <a href="https://github.com/MercersKitchen/BYOD#for-computers-using-schoolzone-all-or-powerteacher">Click Here</a>)
+- Verify the Environmental Variables (My Computer / Properties / Advanced System Settings (System Properties) / Environmental / User Variables / Path / Edit)
+  - Find the JDK bin and the JRE bin
+  - For Example
+    - C:\Program Files\Java\jdk1.8.0_121\bin
+    - C:\Program Files\Java\jre1.8.0_121\bin
+
+Review of JAVAC Complier
+- Reads Java using 3 locators
+  1. Main Program matches Folder name
+  2. Main Program's first line within ```public static void main (String[] args)```
+
+- Compared to Processing-JAVA
+  - Folder and Program Name match
+  - Main Program contains
+    ```java
+    void setup() {}
+    void draw() {}
+    ```
+
+Using the JAVAC Compiler: compiling Java, creating Bytecode, executing Bytecode
+- NOTE: Bytecode will run on multiple platforms (Windows, Mac, and various microcontrollers like alarm clocks) ... Java is everywhere
+. Create GitHub repository and add a .txt document, extension changed to .java
+1. SHIFT-LeftClick on Folder
+   - OR
+   - Open CMD.exe
+   - Open Window and Copy Pathway to Program intended
+     - For Example: C:\Users\mmercer\Documents\GitHub\CS30\Pure Java\Hello World and Java Doc\HelloWorld
+   - Changing Drive letters, type ```c:```
+   - Adding pathway: type ```cd C:\Users\mmercer\Documents\GitHub\CS30\Pure Java\Hello World and Java Doc\HelloWorld```
+   - Then should be able to run the javac and java commands below
+2. Run CMD: "Open Command Window Here"
+3. Creating Bytecode: type ```javac [program name, exact spelling].java```
+   - Compiles Java
+   - Will return all errors here
+4. UP-ARROW to access previous typing
+   - Command Line and Typing Commands is very different than finding buttons to press
+   - Compensation, computer remembers what you typed
+5. Using CTRL-ARROWS to skip typing
+6. Executing Bytecode: type ```java [program name, exact spelling]```
+
+---
+
+# Create Simple Hello World Program
+- ID Driver Method within Main Program with matching folder name
+- Discuss each word in terms of meaning
+- Discuss concept that Java natively accepts strings
+- Review basic Java Documentation File
+- Review ```println``` in Pure Java
+
+- Creating Folder, Naming must match Class Programming for
+- Introduction to
+  CMD
+  javac
+  java
+- What is created in the folder
+- Template for Hello World Program
+
+Breakdown of Hello World Program
+```java
+//Writing your first class
+//Break down each line of code - Review Processing Java
+
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("/nHello, world!/n"); //Character escapes to format output
+    }
+}
+
+//public: everyone can access it
+//class: blueprint for objects, all information should be encapuslated
+//static: do not need to instanciate an object
+//void: does not return anything
+
+/*main(String[] args): method named main, which takes one argument named args,
+                       which is an array of Strings
+  - Looks for this method, like Processing looks for void setup & draw
+  - Thus, this method must be STATIC
+  */
+/*System.out.println: supplies strings to the command prompt
+  Remember: dereference or "."
+  System: predefined class in Java
+  Out: System contains static class named "out"
+  Println: one object in "out" that prints to cmd or console
+  Note: "Out" has many accessible objects, "out" is one of them
+  */
+//Websites for help: https://docs.oracle.com/javase/6/docs/api/
+  //Change 6 to 8 or 9 for more information
+```
 
 ---
