@@ -14,9 +14,9 @@ Quick Links, if needed …
 
 Progressions (partly to develop routine for executing Pure Java)
 - Create Simple Hello World Program, <href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Click Here when active</a>
-- Supply String using CMD, <href="">Click Here when active</a>
-- Supply String using JOptionPane, <href="">Click Here when active</a>
-- Supply String using Scanner Class, <href="">Click Here when active</a>
+- Supply String using CMD, See exemplar in above folder
+- Supply String using JOptionPane, See exemplar in above folder
+- Supply String using Scanner Class, See exemplar in above folder
 
 **UNDER CONSTRUCTION**
 

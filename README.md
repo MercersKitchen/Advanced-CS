@@ -9,6 +9,12 @@ Quick Links
 
 Procedural Pong Exemplar: see Pong Exemplars, https://github.com/Advanced-App-Dev-and-Deploy/Pong-Exemplars
 
+Pong Lessons for Visual Data in Object Orientated Programming ... Progressions
+- Focusing Visual Data and AP Video Lessons for OOP Structures
+
+Pure Java String Lessons ... Progressions
+- Reviewing OOP Structures and AP Video Lessons
+- Application to String Class and OOP Structures in Pure Java using CMD (interactions with Java Compiler)
 
 ---
 
