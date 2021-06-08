@@ -16,7 +16,12 @@ Progressions (partly to develop routine for executing Pure Java)
 - Create Simple Hello World Program, <href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Click Here when active</a>
 - Supply String using CMD, See exemplar in above folder
 - Supply String using JOptionPane, See exemplar in above folder
+  - See Youtube: https://www.youtube.com/watch?v=jD-Lv_izino
+  - Example, converting Strings to Ints using JOptionPane: https://www.youtube.com/watch?v=8JOp5yeQoJ4
 - Supply String using Scanner Class, See exemplar in above folder
+  - See Youtube: https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
+
+Note: Formatting Doubles, ```String s = String.format ("This is how %.3f and %.2f ... Nice", float1, float2)```
 
 **UNDER CONSTRUCTION**
 
@@ -277,3 +282,32 @@ public class HelloWorld{
 ---
 
 # Supply String using CMD
+
+Hello World Example - Supplying CMD Array Content
+```JAVA
+/*
+  To execute: supply cmd line arguments
+  "java HelloWorld testing abc 123"
+*/
+
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("Printing command-line arguments:");
+        for(int i = 0; i < args.length; i++){
+            System.out.println("Args[" + i + "]: " + args[i]);
+        }
+        System.out.println("Done.");
+    }
+}
+/*Note: &lt; is a symbole reference, is the same as <
+  &gt;
+  &le; is a symbole reference, is the same as <=
+  &ge;
+  CAUTION: &lt;= will only display <=, not compare
+  See https://stackoverflow.com/questions/5068951/what-do-lt-and-gt-stand-for
+  Accessed: 20171102
+  */
+
+```
+
+---
