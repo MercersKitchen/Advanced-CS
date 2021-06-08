@@ -9,14 +9,14 @@ Purpose of Using Pure Java directly with the Java Compiler through a Command Ter
 - Building a Routine for writing Pure Java using the CMD.exe (needed for more advanced programming applications)
 
 Quick Links, if needed …
-- <a href="">Tools Used Here</a>
-- <a href="">Create Simple Hello World Program</a>
+- <a href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#tools-used-here">Tools Used Here</a>
+- <a href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Create Simple Hello World Program</a>
 
 Progressions (partly to develop routine for executing Pure Java)
-- Create Simple Hello World Program
-- Supply String using CMD
-- Supply String using JOptionPane
-- Supply String using Scanner Class
+- Create Simple Hello World Program, <href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Click Here when active</a>
+- Supply String using CMD, <href="">Click Here when active</a>
+- Supply String using JOptionPane, <href="">Click Here when active</a>
+- Supply String using Scanner Class, <href="">Click Here when active</a>
 
 **UNDER CONSTRUCTION**
 
@@ -275,3 +275,5 @@ public class HelloWorld{
 ```
 
 ---
+
+# Supply String using CMD
