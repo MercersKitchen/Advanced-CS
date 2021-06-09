@@ -56,27 +56,6 @@ Connected to ATABotics
 
 ---
 
-# Ideas to Include
-
-Objects are:
-- Group of variables declared and assigned per instance using Constructors and procedures
-  - `this` and dereference
-  - "An object knows about itself ..."
-- Instance named like a variable
-- Instances can be structured in an array (read and write)
-- Instantiation happens in MAIN
-- Encapsulation with access modifiers, getters and setters
-- Different classes and instances can communicate through the MAIN Program
-
-- https://web.archive.org/web/20160403181436/http://staticvoidgames.com:80/tutorials/objects/advancedInheritance
-- Advanced Inheritance
-  - Interfaces: methods that subclass must override
-  - Abstract Class: common code between more than one class
-  - Anonymous Classes: create a one-time extension of class that completes a behaviour one time
-  - Final Classes: access modifier final, cannot be extended
-
----
-
 Private notes
 - https://github.com/QEHS-PureJava
 
@@ -303,5 +282,26 @@ public class HelloWorld{
   */
 
 ```
+
+---
+
+# Ideas to Include
+
+Objects are:
+- Group of variables declared and assigned per instance using Constructors and procedures
+  - `this` and dereference
+  - "An object knows about itself ..."
+- Instance named like a variable
+- Instances can be structured in an array (read and write)
+- Instantiation happens in MAIN
+- Encapsulation with access modifiers, getters and setters
+- Different classes and instances can communicate through the MAIN Program
+
+- https://web.archive.org/web/20160403181436/http://staticvoidgames.com:80/tutorials/objects/advancedInheritance
+- Advanced Inheritance
+  - Interfaces: methods that subclass must override
+  - Abstract Class: common code between more than one class
+  - Anonymous Classes: create a one-time extension of class that completes a behaviour one time
+  - Final Classes: access modifier final, cannot be extended
 
 ---
