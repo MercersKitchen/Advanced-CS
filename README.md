@@ -213,9 +213,6 @@ Pure Java String Lessons ... Progressions
 
   <a href="">Click Here</a>
 
-  ---
-
-
 ---
 
 # Using Advanced Placement Videos
@@ -229,6 +226,9 @@ Pure Java String Lessons ... Progressions
 
 ## Data Structure - Arrays (CS20-30)
 - Unit 6: [1] Array Creation and Access
+  - Vocabulary: primitive or referenced, element, index, length,
+  - Arrays are final (unlike Processing-Java), special commands to add elements
+  - Primitive default values or populating elements
 - Unit 6: [2] Traversing Arrays
 - Unit 6: [3] Enhanced for Loop for Arrays
 - Unit 6: [4] Developing Algorithms Using Arrays
