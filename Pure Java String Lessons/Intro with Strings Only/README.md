@@ -10,9 +10,9 @@ Purpose of Using Pure Java directly with the Java Compiler through a Command Ter
 
 Quick Links, if needed …
 - <a href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#tools-used-here">Tools Used Here</a>
-- <a href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Create Simple Hello World Program</a>
+- <a href="">Textbooks and Other Resources</a>
 
-Progressions (partly to develop routine for executing Pure Java)
+Progressions (partly to develop routine for executing Pure Java): Input - Processing - OutPut
 - Create Simple Hello World Program, <href="https://github.com/MercersKitchen/Advanced-CS/tree/main/Pure%20Java/Intro%20with%20Strings%20Only#create-simple-hello-world-program">Click Here when active</a>
 - Supply String using CMD, See exemplar in above folder
 - Supply String using JOptionPane, See exemplar in above folder
@@ -75,16 +75,10 @@ Objects are:
   - Anonymous Classes: create a one-time extension of class that completes a behaviour one time
   - Final Classes: access modifier final, cannot be extended
 
-
-
 ---
 
 Private notes
 - https://github.com/QEHS-PureJava
-
----
-
-# Ideas to Include
 
 ---
 
