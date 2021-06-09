@@ -20,6 +20,8 @@ Progressions (partly to develop routine for executing Pure Java): Input - Proces
   - Example, converting Strings to Ints using JOptionPane: https://www.youtube.com/watch?v=8JOp5yeQoJ4
 - Supply String using Scanner Class, See exemplar in above folder
   - See Youtube: https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
+- Practice with String Functions, before creating an algorithm for Strings
+
 
 Note: Formatting Doubles, ```String s = String.format ("This is how %.3f and %.2f ... Nice", float1, float2)```
 
