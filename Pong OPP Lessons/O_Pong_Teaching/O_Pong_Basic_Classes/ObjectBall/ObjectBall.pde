@@ -1,7 +1,7 @@
 //Questions
 //Where and how are new balls initiated
 
-Ball[] balls = new Ball[4]; //only variable to start is how many Pong Balls will be in play
+Ball[] balls = new Ball[10]; //only variable to start is how many Pong Balls will be in play
 
 int ballCount = 0;
 int Score1=0, Score2=0; //Placeholder variables until ScoreBoard Class created, FOR Loop using these should move to ScoreBoard Class
