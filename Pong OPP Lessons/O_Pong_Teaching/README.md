@@ -8,9 +8,12 @@ Exemplars
 Pseudocode Each Type, perhaps here
 
 Ideas to incorporate
+- Right paddle to move and bounce ball (constructor values based on x-variable)
+- Left paddle to move and bounce ball
+- Score Board and Reset Button
 - Modifiers
 - Static Classes
-- Inheritance:
+- Inheritance
 ---
 
 # O Pong Basic Classes
