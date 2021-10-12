@@ -7,6 +7,33 @@ Exemplars
 
 Pseudocode Each Type, perhaps here
 
+Ideas to incorporate
+- Modifiers
+- Static Classes
+- Inheritance:
+---
+
+# O Pong Basic Classes
+
+## Object Ball
+
+Behaviours
+- New ball has different colour
+- All balls start in center
+- Random direction
+
+- Most code into Constructor
+- gameStart() is procedure that should be in Constructor
+
+Vocabular to Review
+- Array List (similar to Array), but for objects
+- Main or Driver Program, where code from objects are referenced and executed
+- Variables, Constructor (population), Procedural Organization
+
+---
+
+## Object Paddle
+
 
 ---
 
