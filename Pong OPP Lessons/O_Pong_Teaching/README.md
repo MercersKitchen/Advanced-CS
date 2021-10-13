@@ -20,6 +20,8 @@ Ideas to incorporate
 
 ## Object Ball
 
+Caution: this is a circle drawing class
+
 Behaviours
 - New ball has different colour
 - All balls start in center
@@ -37,6 +39,12 @@ Vocabular to Review
 
 ## Object Paddle
 
+Caution: this is a rectangle drawing class
+
+Progressions (not only two paddles)
+- Draw right paddle first, conditional is X-value in constructor
+
+There will be other rectangles to draw on the screen
 
 ---
 
