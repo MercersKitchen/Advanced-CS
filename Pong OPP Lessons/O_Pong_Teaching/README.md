@@ -43,7 +43,7 @@ Caution: this is a rectangle drawing class
 
 Progressions (not only two paddles)
 - Draw paddles
-- Make paddles move
+- Make paddles move (different formula will make paddles move in different ways)
 - If Paddle goes off screen, redraw it on the screen
 
 There will be other rectangles to draw on the screen
