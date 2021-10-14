@@ -42,7 +42,9 @@ Vocabular to Review
 Caution: this is a rectangle drawing class
 
 Progressions (not only two paddles)
-- Draw right paddle first, conditional is X-value in constructor
+- Draw paddles
+- Make paddles move
+- If Paddle goes off screen, redraw it on the screen
 
 There will be other rectangles to draw on the screen
 
