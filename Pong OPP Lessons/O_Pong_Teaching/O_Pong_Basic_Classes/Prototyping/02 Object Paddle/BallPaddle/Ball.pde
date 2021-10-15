@@ -11,13 +11,13 @@ class Ball {
   //needs to be coded first in Processing
   //
   //Constructor, populates the variables
-  Ball(float widthParameter, float heightParameter) { //Passsing Geometry
-    ballStartX = int(widthParameter/2); //will begin as one varaible, but might change b/c easter egg
-    ballStartY = int(heightParameter/2); //see above
+  Ball(float width, float height) { //Passsing Geometry
+    ballStartX = int(width/2); //will begin as one varaible, but might change b/c easter egg
+    ballStartY = int(height/2); //see above
     this.ballX = ballStartX; //ALways starts in middle
     this.ballY = ballStartY;
     this.ballXGoal = false;
-    ballDiameter = int(widthParameter/70); //Will soon need a procedure for this or a choice of code'
+    ballDiameter = int(width/70); //Will soon need a procedure for this or a choice of code'
     ballSpeedX = int( random (1, 5) ); //Not best practice to repeat code, but OK
     ballSpeedY = int( random (1, 5) ); //Here b/c "next line"
     colour = color(int( random(50, 200) ), int( random(50, 200) ), int( random(50, 200) ));
