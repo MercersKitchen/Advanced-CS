@@ -10,10 +10,15 @@ Pseudocode Each Type, perhaps here
 Ideas to incorporate
 - Right paddle to move and bounce ball (constructor values based on x-variable)
 - Left paddle to move and bounce ball
-- Score Board and Reset Button
+- Review of Score Board
+  - Review of Flat Text in Processing
+  - See for complete review of CS 10: https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#computer-apps
+- Caution: may need to move code from Main Program to Classes based on inheritance
+- Inheritance: Score Board and Reset Button
+  - See Design Hierarchy in Pong OPP Lessons (i.e. https://github.com/MercersKitchen/Advanced-CS/tree/main/Pong%20OPP%20Lessons/Class%20Design%20Hierarchy)
 - Modifiers
 - Static Classes
-- Inheritance
+
 ---
 
 # O Pong Basic Classes
