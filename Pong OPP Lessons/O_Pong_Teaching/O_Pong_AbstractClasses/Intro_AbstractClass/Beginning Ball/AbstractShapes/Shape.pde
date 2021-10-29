@@ -3,7 +3,7 @@ abstract class Shape {
   float y;
   float w; //width
   float h; //height
-
+  //
   Shape (float xParameter, float yParameter, float wParameter, float hParameter) {
     this.x = xParameter;
     this.y = yParameter;
@@ -11,7 +11,8 @@ abstract class Shape {
     this.h = hParameter;
   }//End Constructor
   // Reminder: lesson where constructor was split between itself
-  //  and another parameter
-
+  //           and another procedure
+  //
   abstract void draw ();
+  //
 }//End class Shape

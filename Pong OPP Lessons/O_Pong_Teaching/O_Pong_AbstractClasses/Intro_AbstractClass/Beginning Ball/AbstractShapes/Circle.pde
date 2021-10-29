@@ -1,6 +1,6 @@
 class Circle extends Shape {
   //Variables: see Shape
-  color colour;
+  color colour; //Specific to Class Variables
 
   Circle(float x, float y, float w, float h, color cParameter) {
     super(x, y, w, h);
