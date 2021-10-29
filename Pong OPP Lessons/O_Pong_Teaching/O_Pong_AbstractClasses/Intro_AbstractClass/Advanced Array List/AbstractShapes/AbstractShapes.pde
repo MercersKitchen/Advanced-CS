@@ -3,7 +3,7 @@ Circle cHex; //Global, will never be deleted (garabge collected)
 ArrayList<Shape> shapes = new ArrayList<Shape>();
 
 void setup() {
-  size(500, 300); //Should be fullScreen()
+  size(500, 300); //Should be fullScreen(), Geometry of Display
 
   Rectangle rHex = new Rectangle(width*1/4, height*1/4, width*2/4, height*2/4, #0319FC); //Will be deleted at end setup
   Rectangle rRGB = new Rectangle(width*3/5, height*3/5, width*1/5, height*1/5, color(random(255), random(255), random(255)) );
