@@ -4,15 +4,15 @@
 ArrayList<Shape> shapes = new ArrayList<Shape>();
 //
 //Static Variables, processing.java specificm, similar to final
-final int ballWidthStart, ballHeightStart, ballDiameter; //See Circle Class
+//See Circle Class
 //
 void setup() {
   size(500, 300); //fullScreen(); //Geometry of displayWidth & displayHeight
   //
   //Population using Display Geometry
-  ballWidthStart = width*1/2;
-  ballHeightStart = height*1/2;
-  ballDiameter = width*1/50;
+  final int ballWidthStart = width*1/2; //Garbage Collected
+  final int ballHeightStart = height*1/2;
+  final int ballDiameter = width*1/50;
   Circle ball = new Circle(ballWidthStart, ballHeightStart, ballDiameter, ballDiameter); //Can create arrays here for multiple balls
   
   //
