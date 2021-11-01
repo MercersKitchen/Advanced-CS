@@ -7,7 +7,7 @@ void setup() {
   size(500, 300); //fullScreen(); //Geometry of displayWidth & displayHeight
   //
   //Population using Display Geometry
-  Circle ball = new Circle(); 
+  Circle ball = new Circle(); //Can create arrays here for multiple balls
   
   //
 }//End setup
