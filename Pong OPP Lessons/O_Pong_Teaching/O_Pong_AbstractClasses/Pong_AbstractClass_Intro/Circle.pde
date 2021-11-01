@@ -5,7 +5,7 @@ class Circle extends Shape {
   //static int ballWidthStart, ballHeightStart, ballDiameter;
   //
   //Constructor
-  Circle(float xParameter, float yParameter, float wParaemter, float hParameter) {
+  Circle(float x, float y, float w, float h) {
     super(x, y, w, h);
   }//End Constructor
   //

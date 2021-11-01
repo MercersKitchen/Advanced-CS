@@ -14,11 +14,24 @@ void setup() {
   final int ballHeightStart = height*1/2;
   final int ballDiameter = width*1/50;
   Circle ball = new Circle(ballWidthStart, ballHeightStart, ballDiameter, ballDiameter); //Can create arrays here for multiple balls
-  
+  //Rectangle leftPaddle
+  //Rectangle rightPaddle
+  //Rectangle leftScore
+  //Rectangle rigthScore
+  //
+  //ArrayList Poluolation, reminder, all variables and classes
+  //          will be garbage collected, local variables
+  shapes.add(ball);
   //
 }//End setup
 
 void draw() {
+  background(0);
+  //draw Shapes
+  for (int i=0; i<shapes.size(); i++ ) {
+    shapes.get(i).draw();
+  } //End shapes.draw
+  //Gray Scale
 }//End draw
 
 void keyPressed() {
