@@ -3,14 +3,17 @@
 //Global Variables and Other (Classes)
 ArrayList<Shape> shapes = new ArrayList<Shape>();
 //
-//Static Variables, processing.java specific
-int ballWidthStart, ballHeightStart, ballDiameter; //See Circle Class
+//Static Variables, processing.java specificm, similar to final
+final int ballWidthStart, ballHeightStart, ballDiameter; //See Circle Class
 //
 void setup() {
   size(500, 300); //fullScreen(); //Geometry of displayWidth & displayHeight
   //
   //Population using Display Geometry
-  Circle ball = new Circle(width*1/2, height*1/2, width*1/50, width*1/50); //Can create arrays here for multiple balls
+  ballWidthStart = width*1/2;
+  ballHeightStart = height*1/2;
+  ballDiameter = width*1/50;
+  Circle ball = new Circle(ballWidthStart, ballHeightStart, ballDiameter, ballDiameter); //Can create arrays here for multiple balls
   
   //
 }//End setup
