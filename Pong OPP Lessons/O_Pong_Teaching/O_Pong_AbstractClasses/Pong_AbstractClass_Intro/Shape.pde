@@ -1,5 +1,6 @@
 abstract class Shape {
   //Variables
+  float x, y, w, h; //Position and Dimension Shape Variables
 
   //Constructor
   Shape(float xParameter, float yParameter, float wParameter, float hParameter) {

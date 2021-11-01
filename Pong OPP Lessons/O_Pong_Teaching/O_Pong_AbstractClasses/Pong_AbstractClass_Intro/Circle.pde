@@ -6,7 +6,7 @@ class Circle extends Shape {
   //
   //Constructor
   Circle(float xParameter, float yParameter, float wParaemter, float hParameter) {
-    super(x,y,w,h);
+    super(x, y, w, h);
   }//End Constructor
   //
   void draw() {
