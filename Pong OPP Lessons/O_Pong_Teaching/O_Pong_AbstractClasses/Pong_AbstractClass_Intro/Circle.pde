@@ -1,10 +1,10 @@
 class Circle extends Shape {
   //Variables
   //
-  //COnstructor
+  //Constructor
   //
   void draw() {
-    ellipse();
+    ellipse(x, y, w, h);
   }//End draw()
   //
   //
