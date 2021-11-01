@@ -2,7 +2,11 @@ abstract class Shape {
   //Variables
 
   //Constructor
-  Shape(float xPparaemter, float yParameter, float wParaemter, float hParameter) {
+  Shape(float xParameter, float yParameter, float wParameter, float hParameter) {
+    this.x = xParameter;
+    this.y = yParameter;
+    this.w = wParameter;
+    this.h = hParameter;
   }//End Constructor
 
   abstract void draw(); //Manditory, references extended classes
