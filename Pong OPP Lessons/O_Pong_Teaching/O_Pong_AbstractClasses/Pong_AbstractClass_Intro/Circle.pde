@@ -13,5 +13,6 @@ class Circle extends Shape {
     ellipse(x, y, w, h);
   }//End draw()
   //
+  //Add specific procedures (code) here
   //
 }//End class Circle
