@@ -11,34 +11,32 @@ class Ball {
   //needs to be coded first in Processing
   //
   //Constructor, populates the variables
-  Ball(float width, float height) { //Passsing Geometry
-    ballStartX = int(width/2); //will begin as one varaible, but might change b/c easter egg
-    ballStartY = int(height/2); //see above
+  Ball(float widthParameter, float heightParameter) { //Passsing Geometry
+    ballStartX = int(widthParameter/2); //will begin as one varaible, but might change b/c easter egg
+    ballStartY = int(heightParameter/2); //see above
     this.ballX = ballStartX; //ALways starts in middle
     this.ballY = ballStartY;
     this.ballXGoal = false;
-    ballDiameter = int(width/70); //Will soon need a procedure for this or a choice of code'
+    ballDiameter = int(widthParameter/70); //Will soon need a procedure for this or a choice of code'
     ballSpeedX = int( random (1, 5) ); //Not best practice to repeat code, but OK
     ballSpeedY = int( random (1, 5) ); //Here b/c "next line"
     colour = color(int( random(50, 200) ), int( random(50, 200) ), int( random(50, 200) ));
-    //gameStart(); //Alternate fix, full encapsulation
-  }//End Constructor
-  //
-  void ballDraw() {
-    //Background here will cover each individual ball
-    fill(colour);
-    ellipse(ballX, ballY, ballDiameter, ballDiameter);
-    fill(0); //Reset fill
-  }//End ballDraw
-  //
-  void gameStart() { //Complets the Ball Constructor, should be combined with speed
+    //gameStart() now in constructor
     while ( directionX == 0 ) {
       directionX = int (random (-2, 2) );
     }//End WHILE
     while ( directionY == 0 ) {
       directionY = int (random (-2, 2) );
     }//End WHILE
-  }//End gameStart
+  }//End Constructor
+  //
+  void ballDraw() {
+    //Background here will cover each individual ball
+    gamePlay();
+    fill(colour);
+    ellipse(ballX, ballY, ballDiameter, ballDiameter);
+    fill(0); //Reset fill
+  }//End ballDraw
   //
   void gamePlay() {
     //Scoring on Left and Right Goals, resetting variables to decrease system resourses
@@ -53,6 +51,7 @@ class Ball {
         ballY = ballY; //Variable becomes "final" here      
       }
     } //End Net Detection
+    println(ballXGoal);
     //
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
     // Bounce of Top and Bottom: bounce is a range and we move the ball if out-of-bounds

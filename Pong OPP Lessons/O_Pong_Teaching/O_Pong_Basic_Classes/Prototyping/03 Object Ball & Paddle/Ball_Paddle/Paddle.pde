@@ -6,19 +6,19 @@ class Paddle {
   boolean upLeft=false, downLeft=false, upRight=false, downRight=false;
 
   //Constructor, populates the variables
-  Paddle (float width, float height) { //Passsing Geometry
+  Paddle (float widthParameter, float heightParameter) { //Passsing Geometry
     this.colour = color (int(random(100, 255)), int(random(50, 255)), int(random(175, 255)));
-    paddleWidth = int(height*1/80); //no "this" thus no change ever
-    paddleXRight = int(width*39/40) - paddleWidth;
-    paddleXLeft = int(width*1/40);
-    paddleHeight = int(height*1/4);
-    this.paddleYLeft = int(height*1/2) - paddleHeight*1/2;
+    paddleWidth = int(heightParameter*1/80); //no "this" thus no change ever
+    paddleXRight = int(widthParameter*39/40) - paddleWidth;
+    paddleXLeft = int(widthParameter*1/40);
+    paddleHeight = int(heightParameter*1/4);
+    this.paddleYLeft = int(heightParameter*1/2) - paddleHeight*1/2;
     this.paddleYRight = paddleYLeft; 
     this.upLeft = false;
     this.downLeft = false;
     this.upRight = false;
     this.downRight = false;
-    this.yMove = int( (height / height) * 5);
+    this.yMove = int( (heightParameter / heightParameter) * 5);
   }//End Constructor
   //
   void paddleDraw() {
