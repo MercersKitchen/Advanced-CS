@@ -25,11 +25,6 @@ void draw() {
     balls[i].ballDraw(); //Variables and Contructor
     balls[i].gamePlay();
     balls[i].directionYSetter(paddle.paddleXLeftGetter(), paddle.paddleYLeftGetter(), paddle.paddleXRightGetter(), paddle.paddleYRightGetter(), paddle.paddleWidthGetter(), paddle.paddleHeightGetter());
-    /*if (balls[i].ballXGetter() < (paddle.paddleXLeftGetter())+balls[i].ballDiameterGetter() || balls[i].ballXGetter() > paddle.paddleXRightGetter() - balls[i].ballDiameterGetter()) {
-      println("inside");
-      
-    }//Is ballX near paddle
-    */
   }
 }//End draw()
 
