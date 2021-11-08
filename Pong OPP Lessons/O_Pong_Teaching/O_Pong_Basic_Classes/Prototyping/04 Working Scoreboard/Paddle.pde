@@ -1,9 +1,13 @@
 class Paddle {
   //Variables
-  color colour;
+  color colour, white=#FFFFFF;
   int paddleXLeft, paddleXRight, paddleYLeft, paddleYRight, paddleWidth, paddleHeight;
   int yMove; //Possible Easteregg to move paddles differently requires two vars
   boolean upLeft=false, downLeft=false, upRight=false, downRight=false;
+  int leftScore=0, rightScore=0;
+  float leftBoardX, leftBoardY, boardSide, rightBoardX, rightBoardY;
+  String left, right;
+  float textSize;
 
   //Constructor, populates the variables
   Paddle (float widthParameter, float heightParameter) { //Passsing Geometry
@@ -19,6 +23,12 @@ class Paddle {
     this.upRight = false;
     this.downRight = false;
     this.yMove = int( (heightParameter / heightParameter) * 5);
+    boardSide = heightParameter*1/10;
+    leftBoardX = paddleXLeft;
+    leftBoardY = heightParameter*0;
+    rightBoardX = paddleXRight-boardSide;
+    rightBoardY = leftBoardY;
+    textSize = width*1/10; //Algorithm takes geometry dimension side and *1/10 //If can exist in Constructor
   }//End Constructor
   //
   void paddleDraw() {
@@ -64,6 +74,18 @@ class Paddle {
     if ( paddleYRight < height * 0) paddleYRight = 0;
     if (paddleYRight > height - paddleHeight ) paddleYRight = height - paddleHeight;
     //
+    //Printing the Scoreboard
+    fill(white); //board background
+    //rect(leftBoardX, leftBoardY, boardSide, boardSide);
+    //rect(rightBoardX, rightBoardY, boardSide, boardSide);
+    fill(colour); //reset
+    //println(leftScore, rightScore);
+    textSize(textSize); //Change value until it works //Algorithm takes the smaller side and 
+    textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
+    //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
+    //See flatText (CS10) or dynamicText (CS20) or Processing.org for more text functions
+    text(Integer.toString(leftScore), leftBoardX, leftBoardY, boardSide, boardSide);
+    text(Integer.toString(rightScore), rightBoardX, rightBoardY, boardSide, boardSide);
   }//End gamePlay
   //
   // Getters and Setters
@@ -79,23 +101,10 @@ class Paddle {
   void downRightGetter() { //Get Keyboard input
     downRight = true;
   }
-  int paddleXLeftGetter() {
-    return paddleXLeft;
-  }//End Paddle X Left Getter
-  int paddleXRightGetter() {
-    return paddleXRight;
-  }//End Paddle X Left Getter
-  int paddleWidthGetter() {
-    return paddleWidth;
-  }//End Paddle X Left Getter
-  int paddleYLeftGetter() {
-    return paddleYLeft;
-  }//End Paddle X Left Getter
-  int paddleYRightGetter() {
-    return paddleYRight;
-  }//End Paddle X Left Getter
-  int paddleHeightGetter() {
-    return paddleHeight;
-  }//End paddleHeight Getter
-  //
+  void leftScoreSetter() { //Set Left Score Variable
+    leftScore++;
+  }
+  void rightScoreSetter() { //Set Right Score Variable
+    rightScore++;
+  }
 }//End Ball

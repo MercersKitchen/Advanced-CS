@@ -1,2 +1,4 @@
 
 A println statement demonstrates when the variable becomes true
+
+Note Bouncing off Paddle is fixed here - but not yet

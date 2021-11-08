@@ -1,5 +1,5 @@
-/* To Do - Debugging
- Ball line# 54 
+/* To Do
+ See Line #27 for scoreboard, turn off counting
  */
 
 //Global Variables and Other
@@ -8,6 +8,8 @@ Paddle paddle;
 // From Ball_Intro Main Program
 Ball[] balls = new Ball[10]; //Not just an array, but an array list
 int ballCounter = balls.length - balls.length; // How to get "Zero but use another value"
+Boolean[] leftScoreOff = new Boolean [balls.length]; //links to score so code is skipped if ball is used once
+Boolean[] rightScoreOff = new Boolean [balls.length]; //links to score so code is skipped if ball is used once
 
 void setup() {
   size (500, 600); //fullScreen(), displayWidth, displayHeight;
@@ -15,6 +17,10 @@ void setup() {
   paddle = new Paddle(width, height); //For the Constructor
   balls[ballCounter] = new Ball(width, height); 
   ballCounter +=1;
+  for (int i=0; i<balls.length; i++) {
+    leftScoreOff[i] = false;
+    rightScoreOff[i] = false;
+  }//Incrementing to false
   //
 }//End setup()
 
@@ -24,12 +30,14 @@ void draw() {
   for ( int i = 0; i<ballCounter; i++ ) { //Controls each ball
     balls[i].ballDraw(); //Variables and Contructor
     balls[i].gamePlay();
-    balls[i].directionYSetter(paddle.paddleXLeftGetter(), paddle.paddleYLeftGetter(), paddle.paddleXRightGetter(), paddle.paddleYRightGetter(), paddle.paddleWidthGetter(), paddle.paddleHeightGetter());
-    /*if (balls[i].ballXGetter() < (paddle.paddleXLeftGetter())+balls[i].ballDiameterGetter() || balls[i].ballXGetter() > paddle.paddleXRightGetter() - balls[i].ballDiameterGetter()) {
-      println("inside");
-      
-    }//Is ballX near paddle
-    */
+    if ( balls[i].ballLeftGoalGetter() == true && leftScoreOff[i] == false) {
+      paddle.leftScoreSetter();
+      leftScoreOff[i] = true;
+    }
+    if ( balls[i].ballRightGoalGetter() == true && rightScoreOff[i] == false) {
+      paddle.rightScoreSetter();
+      rightScoreOff[i] = true;
+    }
   }
 }//End draw()
 
