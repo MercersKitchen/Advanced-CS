@@ -40,11 +40,11 @@ class Circle extends Shape {
     if ( x < (width*0)+w || x > width - w) { //Net Detection
       ballXGoal = true;
       if (x < (width*0)+w ) { //Goal for left player
-        x = (width*0)+(w/4);
+        x = (width*0);
         y = y; //Variable becomes "final" here
       }
       if ( x > width - w ) { //Goal for right player
-        x = (width)-(w/4);
+        x = (width);
         y = y; //Variable becomes "final" here
       }
     } //End Net Detection
@@ -70,5 +70,7 @@ class Circle extends Shape {
   //
   void paddleBounce() {
     directionX = directionX * (-1);
+    ballMoveX = ballSpeedX*directionX;
+    x += ballMoveX;
   }//End paddleBounce()
 }//End class Circle

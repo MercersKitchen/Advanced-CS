@@ -27,12 +27,15 @@ void setup() {
   final int paddleHeight = int(height*1/4);
   final int yMove = int( (height / height) * 5);
   //Rectangle leftPaddle
-  final int paddleXLeft = int(height*1/40);
-  final int paddleYLeft = int(height*1/2) - paddleHeight*1/2;
+  final int paddleXLeft = int(width*1/40);
+
+  final int paddleYLeft = int(height*1/2 - paddleHeight*1/2);
+  println(paddleYLeft);
   paddles[0] = new Rectangle(paddleXLeft, paddleYLeft, paddleWidth, paddleHeight);
   shapes.add(paddles[0]); //shapes[10]
   //Rectangle rightPaddle
   final int paddleXRight = int(width*39/40);
+
   final int paddleYRight = paddleYLeft; //same starting place, best practice to enter one formula
   paddles[1] = new Rectangle(paddleXRight, paddleYRight, paddleWidth, paddleHeight);
   shapes.add(paddles[1]); //shapes[11]
@@ -48,23 +51,24 @@ void setup() {
 void draw() {
   background(0); //Gray Scale
   //draw Shapes
-  for (int i=0; i<shapes.size(); i++ ) {
+  for (int i=0; i<shapes.size(); i++ ) 
+  {
     shapes.get(i).draw();
     //Numbers in this code should be replaced with static class variables
     if (i <= shapes.size()-2 ) 
     { //Check for balls in shapes, ignore paddles
-      if ( shapes.get(i).x < ( shapes.get(10).x+shapes.get(10).w+(5*shapes.get(i).w) ) || ( shapes.get(i).x > ( shapes.get(11).x-(5*shapes.get(i).w) ) ) )
-      { //Checking if ball is close to paddle
-        if ( ( shapes.get(i).y >= shapes.get(10).y && shapes.get(i).y <= shapes.get(10).y+shapes.get(10).h ) || ( shapes.get(i).y >= shapes.get(11).y && shapes.get(i).y <= shapes.get(11).y+shapes.get(11).h ) )
-        { //Change direction of balls, then recreate Shapes Object at the point in time
-          if (shapes.get(i).y >= shapes.get(10).y && shapes.get(i).y <= shapes.get(10).y+shapes.get(10).h)
+      if ( ( shapes.get(i).y >= shapes.get(10).y && shapes.get(i).y <= shapes.get(10).y+shapes.get(10).h ) || ( shapes.get(i).y >= shapes.get(11).y && shapes.get(i).y <= shapes.get(11).y+shapes.get(11).h ) )
+      { //Change direction of balls, then recreate Shapes Object at the point in time
+        if ( shapes.get(i).x < ( shapes.get(10).x + shapes.get(10).w + shapes.get(i).h ) || ( shapes.get(i).x > ( shapes.get(11).x - shapes.get(i).h ) ) )
+        { //Ball is beyond paddle
+          if ( (shapes.get(i).y >= shapes.get(10).y ) && (shapes.get(i).y <= shapes.get(10).y+shapes.get(10).h) )
           {  //Left Paddle Bounce 
             Circle ball = new Circle ( shapes.get(i).x, shapes.get(i).y, shapes.get(i).w, shapes.get(i).h );
             ball.paddleBounce();
             shapes.remove(i);
             shapes.add(i, ball);
           } //End Left Paddle Bounce
-          if ( shapes.get(i).y >= shapes.get(11).y && shapes.get(i).y <= shapes.get(11).y+shapes.get(11).h )
+          if ( ( shapes.get(i).y >= shapes.get(11).y ) && ( shapes.get(i).y <= shapes.get(11).y+shapes.get(11).h ) )
           { //Right Paddle Bounce
             Circle ball = new Circle ( shapes.get(i).x, shapes.get(i).y, shapes.get(i).w, shapes.get(i).h );
             ball.paddleBounce();
