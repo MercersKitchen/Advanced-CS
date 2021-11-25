@@ -28,7 +28,7 @@ class Paddle {
     leftBoardY = heightParameter*0;
     rightBoardX = paddleXRight-boardSide;
     rightBoardY = leftBoardY;
-    textSize = width*1/10; //Algorithm takes geometry dimension side and *1/10 //If can exist in Constructor
+    textSize = width*1/10; //this might be too big and will need autosizer algorithm from CS20
   }//End Constructor
   //
   void paddleDraw() {
@@ -80,7 +80,8 @@ class Paddle {
     //rect(rightBoardX, rightBoardY, boardSide, boardSide);
     fill(colour); //reset
     //println(leftScore, rightScore);
-    textSize(textSize); //Change value until it works //Algorithm takes the smaller side and 
+    textSize(textSize); //Change value until it works //Algorithm should takes the smaller side
+    //Note about: autosizing algorithm exists for in CS20 that could be explored here
     textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
     //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
     //See flatText (CS10) or dynamicText (CS20) or Processing.org for more text functions
