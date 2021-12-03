@@ -2,5 +2,5 @@
 Basic Star
 Random Star with mouse click
 
-How would overlapping stars be identified, leads to collisions?
+
 

@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-  stars.draw();
+  stars.draw(); //Only part of Star Class being accessed right now
 }
 
 void keyPressed () { // Review KeyBoard Input
