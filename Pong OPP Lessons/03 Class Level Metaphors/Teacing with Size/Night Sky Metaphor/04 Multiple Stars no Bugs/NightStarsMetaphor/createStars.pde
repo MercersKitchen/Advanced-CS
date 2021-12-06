@@ -13,16 +13,22 @@ void createStars()
     stars[i] = new Star(xRandom, yRandom, diameterRandom);
     int j=i;
     //
-    while ( j>=0 && xRandom-diameterRandom*1/2 > stars[j].x && xRandom+diameterRandom*1/2 < stars[j].x ) {
-      xRandom = random(diameterRandom*1/2, width-diameterRandom*1/2);
-      println("X Rechoose run");
+    while ( j>=0) {
+      while (xRandom-diameterRandom*1/2 > stars[j].x && xRandom+diameterRandom*1/2 < stars[j].x) {
+        xRandom = random(diameterRandom*1/2, width-diameterRandom*1/2);
+        println("X Rechoose run");
+      }//End WHILE
+      println("First j",j);
       j--;
     }//End WHILE-X
     stars[i] = new Star(xRandom, yRandom, diameterRandom); //include new xRandom in current stars[i]
     j=i;
-    while ( j>=0 && yRandom-diameterRandom*1/2 > stars[j].y && xRandom+diameterRandom*1/2 < stars[j].y ) {
-      yRandom = random(diameterRandom*1/2, height-diameterRandom*1/2);
-      println("Y Rechoose run");
+    while ( j>=0 ) {
+      while (yRandom-diameterRandom*1/2 > stars[j].y && yRandom+diameterRandom*1/2 < stars[j].y) {
+        yRandom = random(diameterRandom*1/2, height-diameterRandom*1/2);
+        println("Y Rechoose run");
+      }//End WHILE
+      println("Second j",j);
       j--;
     }//End WHILE-X
     //note: repeat this line if xRandom is rewritten but not yRandom, or vise-versa

@@ -1,5 +1,5 @@
 //Global Variables et al.
-int NumberOfStars = 50; //Version of Static Variable in Pure Java
+int NumberOfStars = 10; //Version of Static Variable in Pure Java
 Star[] stars = new Star[NumberOfStars]; //Processing Requires #, Pure Java allows static variable
 color black=#000000;
 
