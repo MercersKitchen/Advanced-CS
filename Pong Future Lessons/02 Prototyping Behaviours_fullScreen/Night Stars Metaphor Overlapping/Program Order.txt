@@ -1,6 +1,0 @@
-
-Basic Star
-Random Star with mouse click
-
-
-
