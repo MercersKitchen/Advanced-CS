@@ -80,3 +80,33 @@ Summary, see Course / Faculty Lectures by Unit: [5] Using Classes to define user
 - coding a social media example
 
 ---
+
+### Advanced  Computer Science Case Studies, Algorithms
+- See Data Structures Videos (Mosh)
+- See https://drive.google.com/drive/folders/1msz74fZNe0sCOrKuUeq9taPLa4hlsE3U
+
+Review Previous Algorithms in Pong
+
+Search Algorithms
+- Linear Search
+- Binary Search
+- Exchange sort: bubble sort, cocktail sort, gnome sort, comb sort
+- Selection sort: selection sort, strand sort
+- Insertion sort: insertion sort, library sort
+
+Additional Searches to Explore
+- Ternary Search
+- Jump Search
+- Exponential Search
+
+Additional Sorts to Explore
+- Merge Sort
+- Quick Sort
+- Partitioning Sort
+- Counting Sort
+- Bucket Sort
+
+Ideas to Include for Searching and Sorting (Using Playing Cards)
+- Counting times to touch cards (data set), introduction to Big O
+
+---
