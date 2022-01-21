@@ -1,4 +1,4 @@
-# Advanced-CS On Top
+# Advanced-CS
 Android App Development using Classes in Processing-JAVA and Pure Java
 
 **UNDER CONSTRUCTION**
@@ -8,8 +8,8 @@ Android App Development using Classes in Processing-JAVA and Pure Java
 Table of Contents
 - Getting Started, <a href="https://github.com/MercersKitchen/Advanced-CS#getting-started">Click Here</a>
 - Links to Review, <a href="https://github.com/MercersKitchen/Advanced-CS#review-of-introductory-and-intermediate-cs-processing-java">Click Here when Available</a>
-  - Introduction to App Development and Deployment, <a href="">Click Here when Available</a>
-  - Intermediate App Developement and Deployment, <a href="">Click Here when Available</a>
+  - Introduction to App Development and Deployment, <a href="https://github.com/MercersKitchen/Advanced-CS#introductory-cs-processing-java">Click Here when Available</a>
+  - Intermediate App Development and Deployment, <a href="https://github.com/MercersKitchen/Advanced-CS#intermediate-cs-processing-java">Click Here when Available</a>
 - <a href="">Click Here when Available</a>
 
 ---
@@ -44,11 +44,17 @@ Pure Java String Lessons ... Progressions
 
 ---
 
+# Note about Processing-Java and Pure Java Classes
+- 
+---
+
 # Review of Introductory and Intermediate CS, Processing-Java
-- Introductory CS, Processing-Java, <a href="">Click Here when Available</a>
-- Intermediate CS, Processing-Java, <a href="">Click Here when Available</a>
+- Introductory CS, Processing-Java, <a href="https://github.com/MercersKitchen/Advanced-CS#introductory-cs-processing-java">Click Here when Available</a>
+- Intermediate CS, Processing-Java, <a href="https://github.com/MercersKitchen/Advanced-CS#intermediate-cs-processing-java">Click Here when Available</a>
 
 ## Introductory CS, Processing-Java
+
+---
 
 ## Intermediate CS, Processing-Java
 
