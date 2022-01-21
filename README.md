@@ -44,8 +44,11 @@ Pure Java String Lessons ... Progressions
 
 ---
 
-# Note about Processing-Java and Pure Java Classes
-- 
+### Note about Processing-Java and Pure Java Classes: mixing Pure Java and Processing.Java classes
+- Pure Java is for arithmetic and console work only at CS30 level
+- Programs will work if Processing-Java is driver and classes are .java (Pure Java)
+- Programs will not work if classes are extended .java to processing.java for arithmetic inheritance
+
 ---
 
 # Review of Introductory and Intermediate CS, Processing-Java
@@ -64,11 +67,6 @@ See Object Pong (O_Pong_Teaching)
 
 ---
 # To Include
-
-CAUTION: notes about mixing Pure Java and Processing.Java classes
-- Pure Java is for arithmetic and console work only at CS30 level
-- Programs will work if Processing-Java is driver and classes are .java (Pure Java)
-- Programs will not work if classes are extended .java to processing.java for arithmetic inheritance
 
 Question: AND, OR, NOT, influencing control flow, related to IF-ELSE
 Question: IF-ELSEIF-ELSE
