@@ -88,9 +88,13 @@ class Ball {
     return ballDiameter;
   }//End ballDiameterGetter
   void directionYSetter(int paddleXLeft, int paddleYLeft, int paddleXRight, int paddleYRight, int paddleWidth, int paddleHeight) {
-    if ( (ballY >= paddleYLeft && ballY <= paddleYLeft+paddleHeight) || ( ballY >= paddleYRight && ballY <= paddleYRight+paddleHeight) ) {
-      if (ballX <= paddleXLeft+paddleWidth+ballDiameter ) directionX = directionX * (-1);
-      if (ballX >= paddleXRight - ballDiameter) directionX = directionX * (-1);
-    }//End ballY IF
+    if (ballX <= width*1/4) { //Left Paddle Only
+      if ( ballY >= paddleYLeft && ballY <= paddleYLeft+paddleHeight ) {
+        if (ballX <= paddleXLeft+paddleWidth+ballDiameter ) directionX = directionX * (-1); //Could be one line, see below
+      }//End ballY IF
+    }
+    //Right Paddle Only, one line example, cascading if
+    if (ballX >= width*3/4) if ( ballY >= paddleYRight && ballY <= paddleYRight+paddleHeight ) if (ballX >= paddleXRight - ballDiameter) directionX = directionX * (-1); 
   }//End directionYSetter
+  //
 }//End Ball
