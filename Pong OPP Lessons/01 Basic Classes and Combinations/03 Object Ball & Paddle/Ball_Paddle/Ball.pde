@@ -95,6 +95,8 @@ class Ball {
     }
     //Right Paddle Only, one line example, cascading if
     if (ballX >= width*3/4) if ( ballY >= paddleYRight && ballY <= paddleYRight+paddleHeight ) if (ballX >= paddleXRight - ballDiameter) directionX = directionX * (-1); 
+    //Simlified Further by &&, single conditional
+    //Note: Prototype with if's, then simply conditional
   }//End directionYSetter
   //
 }//End Ball
