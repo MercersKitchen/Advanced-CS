@@ -39,6 +39,7 @@ Pure Java String Lessons ... Progressions
   - Downloading Processing run locally on Parent Folder
   - Create Links in Start Menu to .exe
   - Use GitHub Repository to save Files Locally, then updating to GitHub Server
+- Setting Up AP Classroom and accessing video instruction
 
 **Example New Processing File**: https://github.com/Advanced-App-Dev-and-Deploy/New-Processing-Examples
 
@@ -47,7 +48,7 @@ Pure Java String Lessons ... Progressions
 ### Note about Processing-Java and Pure Java Classes: mixing Pure Java and Processing.Java classes
 - Pure Java is for arithmetic and console work only at CS30 level
 - Programs will work if Processing-Java is driver and classes are .java (Pure Java)
-- Programs will not work if classes are extended .java to processing.java for arithmetic inheritance
+- Programs will not work if classes are extended from `.pde` to `processing.java` for arithmetic inheritance
 
 ---
 
