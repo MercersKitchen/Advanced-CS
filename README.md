@@ -77,8 +77,7 @@ Advanced CS Case Study ... Pong ... Research Time
 
 Record an image of this ... Uplaod it
 
-<a href="https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments">**Click Here** for Full Links to assignments below</a>
-- **CAUTION**: if you have *NEVER* used processing, you will have a little homework
+<a href="https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments">**Click Here** for Full Links to assignments below</a> **CAUTION**: if you have *NEVER* used processing, you will have a little homework
 
 ### Previous Coding Exemplars
 - Drawing Text: https://github.com/Intro-CS-App-Dev-and-Deploy/Rect-Application-Text
