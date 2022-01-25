@@ -66,10 +66,6 @@ Pure Java String Lessons ... Progressions
 - Is your computer environment created: <a href="https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#five-mandatory-pieces-of-a-computer-environment-for-android-apps">Click Here</a>
 - Create one Repository in GitHub for **Pong**, see https://github.com/MercersKitchen/Creating-a-GitHub-Repository
 
-List the coded algorithms you know already: https://github.com/MercersKitchen/Algorithms
-
-<a href="">Click Here when Available</a>
-
 Advanced CS Case Study ... Pong ... Research Time
 - What is Pong
 - What is the basic functionality of the game
@@ -78,6 +74,12 @@ Advanced CS Case Study ... Pong ... Research Time
 Record an image of this ... Uplaod it
 
 <a href="https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments">**Click Here** for Full Links to assignments below</a> **CAUTION**: if you have *NEVER* used processing, you will have a little homework
+
+List the coded algorithms you know already: https://github.com/MercersKitchen/Algorithms
+- Create a Repository for Algorithms
+- Create Processing-Java Apps outputted to the console to demonstrate each algorithm  
+
+<a href="">Click Here when Available</a>
 
 ### Previous Coding Exemplars
 - Drawing Text: https://github.com/Intro-CS-App-Dev-and-Deploy/Rect-Application-Text
