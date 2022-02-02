@@ -4,9 +4,11 @@ Android App Development using Classes in Processing-JAVA and Pure Java
 **Purpose**: create Pong
 - An Iconcic Game origionally meant as a training app for app development
 
+**NOTE**: only have a Chromebook? 
+- REPL.IT or https://replit.com/ is a good option that fully syncs to GitHub 
+
 Progressions
 - Your Computer Environment and Getting Started, <a href="https://github.com/MercersKitchen/Advanced-CS#getting-started">Click Here</a>
-
 
 <a href="">Click Here when Available</a>
 
