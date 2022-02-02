@@ -1,12 +1,23 @@
 # Advanced-CS
 Android App Development using Classes in Processing-JAVA and Pure Java
 
+**Purpose**: create Pong
+- An Iconcic Game origionally meant as a training app for app development
+
+Progressions
+- Your Computer Environment and Getting Started, <a href="https://github.com/MercersKitchen/Advanced-CS#getting-started">Click Here</a>
+
+
+<a href="">Click Here when Available</a>
+
+--
+
 **UNDER CONSTRUCTION**
 
 ---
 
 Table of Contents
-- Getting Started, <a href="https://github.com/MercersKitchen/Advanced-CS#getting-started">Click Here</a>
+- Getting Started, <a href="">Click Here</a>
 - Links to Review, <a href="https://github.com/MercersKitchen/Advanced-CS#review-of-introductory-and-intermediate-cs-processing-java">Click Here when Available</a>
   - Introduction to App Development and Deployment, <a href="https://github.com/MercersKitchen/Advanced-CS#introductory-cs-processing-java">Click Here when Available</a>
   - Intermediate App Development and Deployment, <a href="https://github.com/MercersKitchen/Advanced-CS#intermediate-cs-processing-java">Click Here when Available</a>
@@ -33,6 +44,12 @@ Pure Java String Lessons ... Progressions
 - Ensure your email is working and protected, "Have I Been Pwned?", "Badrap": this is now a legal and recorded form of communication for everything online
 - LinkedIn Account: create one and maintain links to your GitHub Portfolio
 - Creating and Maintaining a GitHub Account: https://github.com/MercersKitchen/Creating-a-GitHub-Repository
+  - Create a Pong Respository
+  - `ReadMe.md`: Notes about Easter Eggs and other research and ideas into Pong
+  - Include the Following Folders ... (remember, without a REadMe.txt file, the folder will not be created)
+    - / Procedural Pong / ReadMe.txt
+    - / Prototyping Objects / ReadMe.txt
+    - / OPP Pong / ReadMe.txt
 - External Documentation: ReadMe Files: see DOC already made
   - External Documentation: ReadMe.md, ReadMe.txt, and Introductions to GitHub Markdown
   - https://github.com/Intro-CS-App-Dev-and-Deploy/External-Documentation
