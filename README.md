@@ -43,6 +43,7 @@ Pure Java String Lessons ... Progressions
 ---
 
 # Getting Started
+- Ensure you can see all file extensions: View / [Checkbox] Show File Extensions
 - Ensure your email is working and protected, "Have I Been Pwned?", "Badrap": this is now a legal and recorded form of communication for everything online
 - LinkedIn Account: create one and maintain links to your GitHub Portfolio
 - Creating and Maintaining a GitHub Account: https://github.com/MercersKitchen/Creating-a-GitHub-Repository
