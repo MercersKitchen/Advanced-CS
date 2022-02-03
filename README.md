@@ -48,7 +48,7 @@ Pure Java String Lessons ... Progressions
 - Creating and Maintaining a GitHub Account: https://github.com/MercersKitchen/Creating-a-GitHub-Repository
   - Create a Pong Respository
   - `ReadMe.md`: Notes about Easter Eggs and other research and ideas into Pong
-  - Include the Following Folders ... (remember, without a REadMe.txt file, the folder will not be created)
+  - Include the Following Folders ... (remember, without a ReadMe.txt file, the folder will not be created)
     - / Procedural Pong / ReadMe.txt
     - / Prototyping Objects / ReadMe.txt
     - / OPP Pong / ReadMe.txt
