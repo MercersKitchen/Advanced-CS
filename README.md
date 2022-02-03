@@ -2,14 +2,22 @@
 Android App Development using Classes in Processing-JAVA and Pure Java
 
 **Purpose**: create Pong
-- An Iconcic Game origionally meant as a training app for app development
+- An Iconic Game originally meant as a training app for app development
 
-**NOTE**: only have a Chromebook? 
-- REPL.IT or https://replit.com/ is a good option that fully syncs to GitHub 
+**NOTE**: only have a Chromebook?
+- REPL.IT or https://replit.com/ is a good option that fully syncs to GitHub
 
 Progressions
 - Your Computer Environment and Getting Started, <a href="https://github.com/MercersKitchen/Advanced-CS#getting-started">Click Here</a>
-
+- Create a Pong Repository
+  - Folders and ReadMe.md for:
+    - Procedural Pong: prototyping the methods and functions to make a simple interactive pong game, circa 1972
+    - OOP Pong: fully functioning class-based pong game
+    - Prototyping Objects: for developing the structure of OPP between drivers, class constructors, class variables, and class methods & procedures
+    - Abstract Pong: focusing on OOP Concepts to redesign the class-based pong game
+- Brainstorming Easter Eggs in the Main ReadMe.md File
+- Create a Procedural Pong by review Introductory Code and Concepts
+-
 <a href="">Click Here when Available</a>
 
 --
@@ -43,13 +51,12 @@ Pure Java String Lessons ... Progressions
 ---
 
 # Getting Started
-- Ensure you can see all file extensions: View / [Checkbox] Show File Extensions
 - Ensure your email is working and protected, "Have I Been Pwned?", "Badrap": this is now a legal and recorded form of communication for everything online
 - LinkedIn Account: create one and maintain links to your GitHub Portfolio
 - Creating and Maintaining a GitHub Account: https://github.com/MercersKitchen/Creating-a-GitHub-Repository
   - Create a Pong Respository
   - `ReadMe.md`: Notes about Easter Eggs and other research and ideas into Pong
-  - Include the Following Folders ... (remember, without a ReadMe.txt file, the folder will not be created)
+  - Include the Following Folders ... (remember, without a REadMe.txt file, the folder will not be created)
     - / Procedural Pong / ReadMe.txt
     - / Prototyping Objects / ReadMe.txt
     - / OPP Pong / ReadMe.txt
