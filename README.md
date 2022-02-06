@@ -15,8 +15,8 @@ Progressions
     - OOP Pong: fully functioning class-based pong game
     - Prototyping Objects: for developing the structure of OPP between drivers, class constructors, class variables, and class methods & procedures
     - Abstract Pong: focusing on OOP Concepts to redesign the class-based pong game
-- Brainstorming Easter Eggs in the Main ReadMe.md File
-- Create a Procedural Pong by review Introductory Code and Concepts
+- Case Study for Vintage 1972 Pong, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs">Click Here</a>
+- Create a Procedural Pong by review Introductory Code and Concepts, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs">Click Here</a>
 -
 <a href="">Click Here when Available</a>
 
