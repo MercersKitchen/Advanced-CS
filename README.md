@@ -17,7 +17,8 @@ Progressions
     - Abstract Pong: focusing on OOP Concepts to redesign the class-based pong game
 - Case Study for Vintage 1972 Pong, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs">Click Here</a>
 - Create a Procedural Pong by review Introductory Code and Concepts, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs">Click Here</a>
--
+- Introduce Object Orientated Programming and recreate Pong's Ball, Paddles, and Scoreborad between the Main (Driver) Program and Subprogram Classes
+- 
 <a href="">Click Here when Available</a>
 
 --
