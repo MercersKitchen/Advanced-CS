@@ -1,7 +1,7 @@
 /* To Do
  Separating Setup() from draw() from mousePressed()
  Purpose: have individual pong balls functioning
- See ballCounter Vriable in driver global variables
+ See ballCounter Variable in driver global variables
  Note: should be static, encapsulated variable in Ball Class
  */
 
