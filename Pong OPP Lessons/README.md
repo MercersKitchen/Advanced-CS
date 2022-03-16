@@ -1118,4 +1118,11 @@ Purpose: Demonstrate the System Class Method
 - Increase ball speed as score equalizer (modular)
 - Increase number of balls if score does not increase in a certain time limit
 
+---
+
+See Advanced CS Organization
+- GUI-Based Pong for Basic Classes
+
+---
+
 - AP Video about multiple drivers (Unit 2, Video 2)
